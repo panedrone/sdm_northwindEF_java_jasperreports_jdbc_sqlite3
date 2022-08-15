@@ -5,9 +5,9 @@ package com.sqlite.northwindef.dto;
 
 public class ProductSales  {
 
-    private String categoryName;  // q(CategoryName)
-    private String productName;  // q(ProductName)
-    private Double productSales;  // q(ProductSales)
+    private String categoryName;  // q
+    private String productName;  // q
+    private Double productSales;  // q
 
     public String getCategoryName() {
         return this.categoryName;

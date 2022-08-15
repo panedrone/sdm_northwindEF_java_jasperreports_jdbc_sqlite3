@@ -5,17 +5,17 @@ package com.sqlite.northwindef.dto;
 
 public class Customer  {
 
-    private String customerID;  // t(CustomerID)
-    private String companyName;  // t(CompanyName)
-    private String contactName;  // t(ContactName)
-    private String contactTitle;  // t(ContactTitle)
-    private String address;  // t(Address)
-    private String city;  // t(City)
-    private String region;  // t(Region)
-    private String postalCode;  // t(PostalCode)
-    private String country;  // t(Country)
-    private String phone;  // t(Phone)
-    private String fax;  // t(Fax)
+    private String customerID;  // t
+    private String companyName;  // t
+    private String contactName;  // t
+    private String contactTitle;  // t
+    private String address;  // t
+    private String city;  // t
+    private String region;  // t
+    private String postalCode;  // t
+    private String country;  // t
+    private String phone;  // t
+    private String fax;  // t
 
     public String getCustomerID() {
         return this.customerID;

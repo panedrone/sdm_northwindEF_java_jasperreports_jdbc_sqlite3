@@ -5,9 +5,9 @@ package com.sqlite.northwindef.dto;
 
 public class QuarterlyOrdersByProduct  {
 
-    private Object productName;  // q(ProductName)
-    private Object customerID;  // q(CustomerID)
-    private Object orderYear;  // q(OrderYear)
+    private Object productName;  // q
+    private Object customerID;  // q
+    private Object orderYear;  // q
 
     public Object getProductName() {
         return this.productName;

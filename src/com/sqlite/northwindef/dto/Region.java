@@ -5,8 +5,8 @@ package com.sqlite.northwindef.dto;
 
 public class Region  {
 
-    private Integer regionID;  // t(RegionID)
-    private String regionDescription;  // t(RegionDescription)
+    private Integer regionID;  // t
+    private String regionDescription;  // t
 
     public Integer getRegionID() {
         return this.regionID;

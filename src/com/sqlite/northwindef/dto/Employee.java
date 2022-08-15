@@ -5,23 +5,23 @@ package com.sqlite.northwindef.dto;
 
 public class Employee  {
 
-    private Integer employeeID;  // t(EmployeeID)
-    private String lastName;  // t(LastName)
-    private String firstName;  // t(FirstName)
-    private String title;  // t(Title)
-    private String titleOfCourtesy;  // t(TitleOfCourtesy)
-    private String birthDate;  // t(BirthDate)
-    private String hireDate;  // t(HireDate)
-    private String address;  // t(Address)
-    private String city;  // t(City)
-    private String region;  // t(Region)
-    private String postalCode;  // t(PostalCode)
-    private String country;  // t(Country)
-    private String homePhone;  // t(HomePhone)
-    private String extension;  // t(Extension)
-    private String photo;  // t(Photo)
-    private String notes;  // t(Notes)
-    private String photoPath;  // t(PhotoPath)
+    private Integer employeeID;  // t
+    private String lastName;  // t
+    private String firstName;  // t
+    private String title;  // t
+    private String titleOfCourtesy;  // t
+    private String birthDate;  // t
+    private String hireDate;  // t
+    private String address;  // t
+    private String city;  // t
+    private String region;  // t
+    private String postalCode;  // t
+    private String country;  // t
+    private String homePhone;  // t
+    private String extension;  // t
+    private String photo;  // t
+    private String notes;  // t
+    private String photoPath;  // t
 
     public Integer getEmployeeID() {
         return this.employeeID;

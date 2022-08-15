@@ -5,19 +5,19 @@ package com.sqlite.northwindef.dto;
 
 public class Order  {
 
-    private Integer orderID;  // t(OrderID)
-    private String customerID;  // t(CustomerID)
-    private Integer employeeID;  // t(EmployeeID)
-    private String orderDate;  // t(OrderDate)
-    private String requiredDate;  // t(RequiredDate)
-    private String shippedDate;  // t(ShippedDate)
-    private String freight;  // t(Freight)
-    private String shipName;  // t(ShipName)
-    private String shipAddress;  // t(ShipAddress)
-    private String shipCity;  // t(ShipCity)
-    private String shipRegion;  // t(ShipRegion)
-    private String shipPostalCode;  // t(ShipPostalCode)
-    private String shipCountry;  // t(ShipCountry)
+    private Integer orderID;  // t
+    private String customerID;  // t
+    private Integer employeeID;  // t
+    private String orderDate;  // t
+    private String requiredDate;  // t
+    private String shippedDate;  // t
+    private String freight;  // t
+    private String shipName;  // t
+    private String shipAddress;  // t
+    private String shipCity;  // t
+    private String shipRegion;  // t
+    private String shipPostalCode;  // t
+    private String shipCountry;  // t
 
     public Integer getOrderID() {
         return this.orderID;

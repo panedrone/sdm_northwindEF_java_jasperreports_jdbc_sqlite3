@@ -5,8 +5,8 @@ package com.sqlite.northwindef.dto;
 
 public class OrderSubtotal  {
 
-    private Integer orderID;  // q(OrderID)
-    private Double subtotal;  // q(Subtotal)
+    private Integer orderID;  // q
+    private Double subtotal;  // q
     private int xxx;  // xml(xxx)
 
     public Integer getOrderID() {

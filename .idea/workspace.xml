@@ -10,11 +10,47 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d20b1f1-a2e2-4113-894b-29ea255d68a3" name="Default" comment="d">
-      <change afterPath="$PROJECT_DIR$/sdm_demo_jasper_reports_northwindEF.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="6d20b1f1-a2e2-4113-894b-29ea255d68a3" name="Default" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdm/sqlite-jdbc-3.39.2.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/northwindEF.sqlite.NB.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdm/Crud_All_Dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sdm/Crud_All_Dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdm/OrdersDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sdm/OrdersDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdm/dao.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/sdm/dao.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdm/dto.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/sdm/dto.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdm/settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sdm/settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdm/settings.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/sdm/settings.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlite-jdbc-3.32.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqldalmaker/DataStoreManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqldalmaker/DataStoreManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dao/Crud_All_Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dao/Crud_All_Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dao/CustomersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dao/CustomersDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dao/FK_Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dao/FK_Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dao/InvoicesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dao/InvoicesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dao/OrdersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dao/OrdersDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dao/ProductsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dao/ProductsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dao/SalesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dao/SalesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/CustomersAndSuppliersByCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/CustomersAndSuppliersByCity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/EmployeesTerritory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/EmployeesTerritory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/InternationalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/InternationalOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/OrderDetailsExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/OrderDetailsExtended.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/OrderSubtotal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/OrderSubtotal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/PreviousEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/PreviousEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/ProductSales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/ProductSales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/QuarterlyOrdersByProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/QuarterlyOrdersByProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Region.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Sales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Sales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/SalesByYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/SalesByYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Supplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Territory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sqlite/northwindef/dto/Territory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +68,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Ov3DbjiZAnRVBSusUf0GotQB9O" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -44,7 +80,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sdm/sqlite-jdbc-3.39.2.0.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -52,6 +88,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\sdm-demos\sdm_demo_jasper_reports_northwindEF\sdm" />
       <recent name="D:\work\runtime-EclipseApplication\northwindEF.sqlite.NB" />
     </key>
   </component>
@@ -202,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615189385634</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="initial commit">
+      <created>1618651321415</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1618651321415</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -224,7 +268,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="d" />
-    <option name="LAST_COMMIT_MESSAGE" value="d" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>

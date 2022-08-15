@@ -2,7 +2,7 @@
 <dao-class xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:noNamespaceSchemaLocation="dao.xsd">
 
-    <crud-auto dto="Order" table="Orders" />
+    <crud dto="Order" table="Orders" />
 
     <query-dto-list method="getOrderSubtotals" dto="OrderSubtotal"
                     ref="orders/OrderSubtotals.sql" />

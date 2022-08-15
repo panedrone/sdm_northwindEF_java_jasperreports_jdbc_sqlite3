@@ -5,9 +5,9 @@ package com.sqlite.northwindef.dto;
 
 public class Territory  {
 
-    private Integer territoryID;  // t(TerritoryID)
-    private String territoryDescription;  // t(TerritoryDescription)
-    private Integer regionID;  // t(RegionID)
+    private Integer territoryID;  // t
+    private String territoryDescription;  // t
+    private Integer regionID;  // t
 
     public Integer getTerritoryID() {
         return this.territoryID;

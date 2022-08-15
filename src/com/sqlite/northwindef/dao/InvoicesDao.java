@@ -50,31 +50,31 @@ public class InvoicesDao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 Invoice obj = new Invoice();
-                obj.setShipName(rd.getValue(Object.class, "ShipName"));  // q(ShipName) <- q(ShipName)
-                obj.setShipAddress(rd.getValue(Object.class, "ShipAddress"));  // q(ShipAddress) <- q(ShipAddress)
-                obj.setShipCity(rd.getValue(Object.class, "ShipCity"));  // q(ShipCity) <- q(ShipCity)
-                obj.setShipRegion(rd.getValue(Object.class, "ShipRegion"));  // q(ShipRegion) <- q(ShipRegion)
-                obj.setShipPostalCode(rd.getValue(Object.class, "ShipPostalCode"));  // q(ShipPostalCode) <- q(ShipPostalCode)
-                obj.setShipCountry(rd.getValue(Object.class, "ShipCountry"));  // q(ShipCountry) <- q(ShipCountry)
-                obj.setCustomerID1(rd.getValue(Object.class, "CustomerID:1"));  // q(CustomerID:1) <- q(CustomerID:1)
-                obj.setCompanyName(rd.getValue(Object.class, "CompanyName"));  // q(CompanyName) <- q(CompanyName)
-                obj.setAddress1(rd.getValue(Object.class, "Address:1"));  // q(Address:1) <- q(Address:1)
-                obj.setCity1(rd.getValue(Object.class, "City:1"));  // q(City:1) <- q(City:1)
-                obj.setRegion1(rd.getValue(Object.class, "Region:1"));  // q(Region:1) <- q(Region:1)
-                obj.setPostalCode1(rd.getValue(Object.class, "PostalCode:1"));  // q(PostalCode:1) <- q(PostalCode:1)
-                obj.setCountry1(rd.getValue(Object.class, "Country:1"));  // q(Country:1) <- q(Country:1)
-                obj.setSalesperson(rd.getValue(Object.class, "Salesperson"));  // q(Salesperson) <- q(Salesperson)
-                obj.setOrderID(rd.getValue(Object.class, "OrderID"));  // q(OrderID) <- q(OrderID)
-                obj.setOrderDate(rd.getValue(Object.class, "OrderDate"));  // q(OrderDate) <- q(OrderDate)
-                obj.setRequiredDate(rd.getValue(Object.class, "RequiredDate"));  // q(RequiredDate) <- q(RequiredDate)
-                obj.setShippedDate(rd.getValue(Object.class, "ShippedDate"));  // q(ShippedDate) <- q(ShippedDate)
-                obj.setProductID(rd.getValue(Object.class, "ProductID"));  // q(ProductID) <- q(ProductID)
-                obj.setProductName(rd.getValue(Object.class, "ProductName"));  // q(ProductName) <- q(ProductName)
-                obj.setUnitPrice(rd.getValue(Object.class, "UnitPrice"));  // q(UnitPrice) <- q(UnitPrice)
-                obj.setQuantity(rd.getValue(Object.class, "Quantity"));  // q(Quantity) <- q(Quantity)
-                obj.setDiscount(rd.getValue(Object.class, "Discount"));  // q(Discount) <- q(Discount)
-                obj.setExtendedPrice(rd.getValue(Object.class, "ExtendedPrice"));  // q(ExtendedPrice) <- q(ExtendedPrice)
-                obj.setFreight(rd.getValue(Object.class, "Freight"));  // q(Freight) <- q(Freight)
+                obj.setShipName(rd.getValue(Object.class, "ShipName"));  // q <- q
+                obj.setShipAddress(rd.getValue(Object.class, "ShipAddress"));  // q <- q
+                obj.setShipCity(rd.getValue(Object.class, "ShipCity"));  // q <- q
+                obj.setShipRegion(rd.getValue(Object.class, "ShipRegion"));  // q <- q
+                obj.setShipPostalCode(rd.getValue(Object.class, "ShipPostalCode"));  // q <- q
+                obj.setShipCountry(rd.getValue(Object.class, "ShipCountry"));  // q <- q
+                obj.setCustomerID1(rd.getValue(Object.class, "CustomerID:1"));  // q <- q
+                obj.setCompanyName(rd.getValue(Object.class, "CompanyName"));  // q <- q
+                obj.setAddress1(rd.getValue(Object.class, "Address:1"));  // q <- q
+                obj.setCity1(rd.getValue(Object.class, "City:1"));  // q <- q
+                obj.setRegion1(rd.getValue(Object.class, "Region:1"));  // q <- q
+                obj.setPostalCode1(rd.getValue(Object.class, "PostalCode:1"));  // q <- q
+                obj.setCountry1(rd.getValue(Object.class, "Country:1"));  // q <- q
+                obj.setSalesperson(rd.getValue(Object.class, "Salesperson"));  // q <- q
+                obj.setOrderID(rd.getValue(Object.class, "OrderID"));  // q <- q
+                obj.setOrderDate(rd.getValue(Object.class, "OrderDate"));  // q <- q
+                obj.setRequiredDate(rd.getValue(Object.class, "RequiredDate"));  // q <- q
+                obj.setShippedDate(rd.getValue(Object.class, "ShippedDate"));  // q <- q
+                obj.setProductID(rd.getValue(Object.class, "ProductID"));  // q <- q
+                obj.setProductName(rd.getValue(Object.class, "ProductName"));  // q <- q
+                obj.setUnitPrice(rd.getValue(Object.class, "UnitPrice"));  // q <- q
+                obj.setQuantity(rd.getValue(Object.class, "Quantity"));  // q <- q
+                obj.setDiscount(rd.getValue(Object.class, "Discount"));  // q <- q
+                obj.setExtendedPrice(rd.getValue(Object.class, "ExtendedPrice"));  // q <- q
+                obj.setFreight(rd.getValue(Object.class, "Freight"));  // q <- q
                 res.add(obj);
             }
         });

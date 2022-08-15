@@ -5,13 +5,13 @@ package com.sqlite.northwindef.dto;
 
 public class OrderDetailsExtended  {
 
-    private Object orderID;  // q(OrderID)
-    private Object productID;  // q(ProductID)
-    private Object productName;  // q(ProductName)
-    private Object unitPrice;  // q(UnitPrice)
-    private Object quantity;  // q(Quantity)
-    private Object discount;  // q(Discount)
-    private Object extendedPrice;  // q(ExtendedPrice)
+    private Object orderID;  // q
+    private Object productID;  // q
+    private Object productName;  // q
+    private Object unitPrice;  // q
+    private Object quantity;  // q
+    private Object discount;  // q
+    private Object extendedPrice;  // q
 
     public Object getOrderID() {
         return this.orderID;

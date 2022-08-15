@@ -5,10 +5,10 @@ package com.sqlite.northwindef.dto;
 
 public class CustomersAndSuppliersByCity  {
 
-    private String city;  // q(City)
-    private String companyName;  // q(CompanyName)
-    private String contactName;  // q(ContactName)
-    private String relationship;  // q(Relationship)
+    private String city;  // q
+    private String companyName;  // q
+    private String contactName;  // q
+    private String relationship;  // q
 
     public String getCity() {
         return this.city;

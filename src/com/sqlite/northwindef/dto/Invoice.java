@@ -5,31 +5,31 @@ package com.sqlite.northwindef.dto;
 
 public class Invoice  {
 
-    private Object shipName;  // q(ShipName)
-    private Object shipAddress;  // q(ShipAddress)
-    private Object shipCity;  // q(ShipCity)
-    private Object shipRegion;  // q(ShipRegion)
-    private Object shipPostalCode;  // q(ShipPostalCode)
-    private Object shipCountry;  // q(ShipCountry)
-    private Object customerID1;  // q(CustomerID:1)
-    private Object companyName;  // q(CompanyName)
-    private Object address1;  // q(Address:1)
-    private Object city1;  // q(City:1)
-    private Object region1;  // q(Region:1)
-    private Object postalCode1;  // q(PostalCode:1)
-    private Object country1;  // q(Country:1)
-    private Object salesperson;  // q(Salesperson)
-    private Object orderID;  // q(OrderID)
-    private Object orderDate;  // q(OrderDate)
-    private Object requiredDate;  // q(RequiredDate)
-    private Object shippedDate;  // q(ShippedDate)
-    private Object productID;  // q(ProductID)
-    private Object productName;  // q(ProductName)
-    private Object unitPrice;  // q(UnitPrice)
-    private Object quantity;  // q(Quantity)
-    private Object discount;  // q(Discount)
-    private Object extendedPrice;  // q(ExtendedPrice)
-    private Object freight;  // q(Freight)
+    private Object shipName;  // q
+    private Object shipAddress;  // q
+    private Object shipCity;  // q
+    private Object shipRegion;  // q
+    private Object shipPostalCode;  // q
+    private Object shipCountry;  // q
+    private Object customerID1;  // q
+    private Object companyName;  // q
+    private Object address1;  // q
+    private Object city1;  // q
+    private Object region1;  // q
+    private Object postalCode1;  // q
+    private Object country1;  // q
+    private Object salesperson;  // q
+    private Object orderID;  // q
+    private Object orderDate;  // q
+    private Object requiredDate;  // q
+    private Object shippedDate;  // q
+    private Object productID;  // q
+    private Object productName;  // q
+    private Object unitPrice;  // q
+    private Object quantity;  // q
+    private Object discount;  // q
+    private Object extendedPrice;  // q
+    private Object freight;  // q
 
     public Object getShipName() {
         return this.shipName;

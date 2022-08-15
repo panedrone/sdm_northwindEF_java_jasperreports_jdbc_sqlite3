@@ -5,9 +5,9 @@ package com.sqlite.northwindef.dto;
 
 public class InternationalOrder  {
 
-    private Integer orderID;  // t(OrderID)
-    private String customsDescription;  // t(CustomsDescription)
-    private String exciseTax;  // t(ExciseTax)
+    private Integer orderID;  // t
+    private String customsDescription;  // t
+    private String exciseTax;  // t
 
     public Integer getOrderID() {
         return this.orderID;

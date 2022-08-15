@@ -52,10 +52,10 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 Category obj = new Category();
-                obj.setCategoryID(rd.getValue(Integer.class, "CategoryID"));  // t(CategoryID) <- t(CategoryID)
-                obj.setCategoryName(rd.getValue(String.class, "CategoryName"));  // t(CategoryName) <- t(CategoryName)
-                obj.setDescription(rd.getValue(String.class, "Description"));  // t(Description) <- t(Description)
-                obj.setPicture(rd.getValue(byte[].class, "Picture"));  // t(Picture) <- t(Picture)
+                obj.setCategoryID(rd.getValue(Integer.class, "CategoryID"));  // t <- t
+                obj.setCategoryName(rd.getValue(String.class, "CategoryName"));  // t <- t
+                obj.setDescription(rd.getValue(String.class, "Description"));  // t <- t
+                obj.setPicture(rd.getValue(byte[].class, "Picture"));  // t <- t
                 res.add(obj);
             }
         });
@@ -69,10 +69,10 @@ public class Crud_All_Dao {
         String sql = "select * from Categories where CategoryID=?";
         DataStore.RowData rd = ds.queryRow(sql, categoryID);
         Category obj = new Category();
-        obj.setCategoryID(rd.getValue(Integer.class, "CategoryID"));  // t(CategoryID) <- t(CategoryID)
-        obj.setCategoryName(rd.getValue(String.class, "CategoryName"));  // t(CategoryName) <- t(CategoryName)
-        obj.setDescription(rd.getValue(String.class, "Description"));  // t(Description) <- t(Description)
-        obj.setPicture(rd.getValue(byte[].class, "Picture"));  // t(Picture) <- t(Picture)
+        obj.setCategoryID(rd.getValue(Integer.class, "CategoryID"));  // t <- t
+        obj.setCategoryName(rd.getValue(String.class, "CategoryName"));  // t <- t
+        obj.setDescription(rd.getValue(String.class, "Description"));  // t <- t
+        obj.setPicture(rd.getValue(byte[].class, "Picture"));  // t <- t
         return obj;
     }
 
@@ -131,17 +131,17 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 Customer obj = new Customer();
-                obj.setCustomerID(rd.getValue(String.class, "CustomerID"));  // t(CustomerID) <- t(CustomerID)
-                obj.setCompanyName(rd.getValue(String.class, "CompanyName"));  // t(CompanyName) <- t(CompanyName)
-                obj.setContactName(rd.getValue(String.class, "ContactName"));  // t(ContactName) <- t(ContactName)
-                obj.setContactTitle(rd.getValue(String.class, "ContactTitle"));  // t(ContactTitle) <- t(ContactTitle)
-                obj.setAddress(rd.getValue(String.class, "Address"));  // t(Address) <- t(Address)
-                obj.setCity(rd.getValue(String.class, "City"));  // t(City) <- t(City)
-                obj.setRegion(rd.getValue(String.class, "Region"));  // t(Region) <- t(Region)
-                obj.setPostalCode(rd.getValue(String.class, "PostalCode"));  // t(PostalCode) <- t(PostalCode)
-                obj.setCountry(rd.getValue(String.class, "Country"));  // t(Country) <- t(Country)
-                obj.setPhone(rd.getValue(String.class, "Phone"));  // t(Phone) <- t(Phone)
-                obj.setFax(rd.getValue(String.class, "Fax"));  // t(Fax) <- t(Fax)
+                obj.setCustomerID(rd.getValue(String.class, "CustomerID"));  // t <- t
+                obj.setCompanyName(rd.getValue(String.class, "CompanyName"));  // t <- t
+                obj.setContactName(rd.getValue(String.class, "ContactName"));  // t <- t
+                obj.setContactTitle(rd.getValue(String.class, "ContactTitle"));  // t <- t
+                obj.setAddress(rd.getValue(String.class, "Address"));  // t <- t
+                obj.setCity(rd.getValue(String.class, "City"));  // t <- t
+                obj.setRegion(rd.getValue(String.class, "Region"));  // t <- t
+                obj.setPostalCode(rd.getValue(String.class, "PostalCode"));  // t <- t
+                obj.setCountry(rd.getValue(String.class, "Country"));  // t <- t
+                obj.setPhone(rd.getValue(String.class, "Phone"));  // t <- t
+                obj.setFax(rd.getValue(String.class, "Fax"));  // t <- t
                 res.add(obj);
             }
         });
@@ -155,17 +155,17 @@ public class Crud_All_Dao {
         String sql = "select * from Customers where CustomerID=?";
         DataStore.RowData rd = ds.queryRow(sql, customerID);
         Customer obj = new Customer();
-        obj.setCustomerID(rd.getValue(String.class, "CustomerID"));  // t(CustomerID) <- t(CustomerID)
-        obj.setCompanyName(rd.getValue(String.class, "CompanyName"));  // t(CompanyName) <- t(CompanyName)
-        obj.setContactName(rd.getValue(String.class, "ContactName"));  // t(ContactName) <- t(ContactName)
-        obj.setContactTitle(rd.getValue(String.class, "ContactTitle"));  // t(ContactTitle) <- t(ContactTitle)
-        obj.setAddress(rd.getValue(String.class, "Address"));  // t(Address) <- t(Address)
-        obj.setCity(rd.getValue(String.class, "City"));  // t(City) <- t(City)
-        obj.setRegion(rd.getValue(String.class, "Region"));  // t(Region) <- t(Region)
-        obj.setPostalCode(rd.getValue(String.class, "PostalCode"));  // t(PostalCode) <- t(PostalCode)
-        obj.setCountry(rd.getValue(String.class, "Country"));  // t(Country) <- t(Country)
-        obj.setPhone(rd.getValue(String.class, "Phone"));  // t(Phone) <- t(Phone)
-        obj.setFax(rd.getValue(String.class, "Fax"));  // t(Fax) <- t(Fax)
+        obj.setCustomerID(rd.getValue(String.class, "CustomerID"));  // t <- t
+        obj.setCompanyName(rd.getValue(String.class, "CompanyName"));  // t <- t
+        obj.setContactName(rd.getValue(String.class, "ContactName"));  // t <- t
+        obj.setContactTitle(rd.getValue(String.class, "ContactTitle"));  // t <- t
+        obj.setAddress(rd.getValue(String.class, "Address"));  // t <- t
+        obj.setCity(rd.getValue(String.class, "City"));  // t <- t
+        obj.setRegion(rd.getValue(String.class, "Region"));  // t <- t
+        obj.setPostalCode(rd.getValue(String.class, "PostalCode"));  // t <- t
+        obj.setCountry(rd.getValue(String.class, "Country"));  // t <- t
+        obj.setPhone(rd.getValue(String.class, "Phone"));  // t <- t
+        obj.setFax(rd.getValue(String.class, "Fax"));  // t <- t
         return obj;
     }
 
@@ -220,23 +220,23 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 Employee obj = new Employee();
-                obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t(EmployeeID) <- t(EmployeeID)
-                obj.setLastName(rd.getValue(String.class, "LastName"));  // t(LastName) <- t(LastName)
-                obj.setFirstName(rd.getValue(String.class, "FirstName"));  // t(FirstName) <- t(FirstName)
-                obj.setTitle(rd.getValue(String.class, "Title"));  // t(Title) <- t(Title)
-                obj.setTitleOfCourtesy(rd.getValue(String.class, "TitleOfCourtesy"));  // t(TitleOfCourtesy) <- t(TitleOfCourtesy)
-                obj.setBirthDate(rd.getValue(String.class, "BirthDate"));  // t(BirthDate) <- t(BirthDate)
-                obj.setHireDate(rd.getValue(String.class, "HireDate"));  // t(HireDate) <- t(HireDate)
-                obj.setAddress(rd.getValue(String.class, "Address"));  // t(Address) <- t(Address)
-                obj.setCity(rd.getValue(String.class, "City"));  // t(City) <- t(City)
-                obj.setRegion(rd.getValue(String.class, "Region"));  // t(Region) <- t(Region)
-                obj.setPostalCode(rd.getValue(String.class, "PostalCode"));  // t(PostalCode) <- t(PostalCode)
-                obj.setCountry(rd.getValue(String.class, "Country"));  // t(Country) <- t(Country)
-                obj.setHomePhone(rd.getValue(String.class, "HomePhone"));  // t(HomePhone) <- t(HomePhone)
-                obj.setExtension(rd.getValue(String.class, "Extension"));  // t(Extension) <- t(Extension)
-                obj.setPhoto(rd.getValue(String.class, "Photo"));  // t(Photo) <- t(Photo)
-                obj.setNotes(rd.getValue(String.class, "Notes"));  // t(Notes) <- t(Notes)
-                obj.setPhotoPath(rd.getValue(String.class, "PhotoPath"));  // t(PhotoPath) <- t(PhotoPath)
+                obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t <- t
+                obj.setLastName(rd.getValue(String.class, "LastName"));  // t <- t
+                obj.setFirstName(rd.getValue(String.class, "FirstName"));  // t <- t
+                obj.setTitle(rd.getValue(String.class, "Title"));  // t <- t
+                obj.setTitleOfCourtesy(rd.getValue(String.class, "TitleOfCourtesy"));  // t <- t
+                obj.setBirthDate(rd.getValue(String.class, "BirthDate"));  // t <- t
+                obj.setHireDate(rd.getValue(String.class, "HireDate"));  // t <- t
+                obj.setAddress(rd.getValue(String.class, "Address"));  // t <- t
+                obj.setCity(rd.getValue(String.class, "City"));  // t <- t
+                obj.setRegion(rd.getValue(String.class, "Region"));  // t <- t
+                obj.setPostalCode(rd.getValue(String.class, "PostalCode"));  // t <- t
+                obj.setCountry(rd.getValue(String.class, "Country"));  // t <- t
+                obj.setHomePhone(rd.getValue(String.class, "HomePhone"));  // t <- t
+                obj.setExtension(rd.getValue(String.class, "Extension"));  // t <- t
+                obj.setPhoto(rd.getValue(String.class, "Photo"));  // t <- t
+                obj.setNotes(rd.getValue(String.class, "Notes"));  // t <- t
+                obj.setPhotoPath(rd.getValue(String.class, "PhotoPath"));  // t <- t
                 res.add(obj);
             }
         });
@@ -250,23 +250,23 @@ public class Crud_All_Dao {
         String sql = "select * from Employees where EmployeeID=?";
         DataStore.RowData rd = ds.queryRow(sql, employeeID);
         Employee obj = new Employee();
-        obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t(EmployeeID) <- t(EmployeeID)
-        obj.setLastName(rd.getValue(String.class, "LastName"));  // t(LastName) <- t(LastName)
-        obj.setFirstName(rd.getValue(String.class, "FirstName"));  // t(FirstName) <- t(FirstName)
-        obj.setTitle(rd.getValue(String.class, "Title"));  // t(Title) <- t(Title)
-        obj.setTitleOfCourtesy(rd.getValue(String.class, "TitleOfCourtesy"));  // t(TitleOfCourtesy) <- t(TitleOfCourtesy)
-        obj.setBirthDate(rd.getValue(String.class, "BirthDate"));  // t(BirthDate) <- t(BirthDate)
-        obj.setHireDate(rd.getValue(String.class, "HireDate"));  // t(HireDate) <- t(HireDate)
-        obj.setAddress(rd.getValue(String.class, "Address"));  // t(Address) <- t(Address)
-        obj.setCity(rd.getValue(String.class, "City"));  // t(City) <- t(City)
-        obj.setRegion(rd.getValue(String.class, "Region"));  // t(Region) <- t(Region)
-        obj.setPostalCode(rd.getValue(String.class, "PostalCode"));  // t(PostalCode) <- t(PostalCode)
-        obj.setCountry(rd.getValue(String.class, "Country"));  // t(Country) <- t(Country)
-        obj.setHomePhone(rd.getValue(String.class, "HomePhone"));  // t(HomePhone) <- t(HomePhone)
-        obj.setExtension(rd.getValue(String.class, "Extension"));  // t(Extension) <- t(Extension)
-        obj.setPhoto(rd.getValue(String.class, "Photo"));  // t(Photo) <- t(Photo)
-        obj.setNotes(rd.getValue(String.class, "Notes"));  // t(Notes) <- t(Notes)
-        obj.setPhotoPath(rd.getValue(String.class, "PhotoPath"));  // t(PhotoPath) <- t(PhotoPath)
+        obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t <- t
+        obj.setLastName(rd.getValue(String.class, "LastName"));  // t <- t
+        obj.setFirstName(rd.getValue(String.class, "FirstName"));  // t <- t
+        obj.setTitle(rd.getValue(String.class, "Title"));  // t <- t
+        obj.setTitleOfCourtesy(rd.getValue(String.class, "TitleOfCourtesy"));  // t <- t
+        obj.setBirthDate(rd.getValue(String.class, "BirthDate"));  // t <- t
+        obj.setHireDate(rd.getValue(String.class, "HireDate"));  // t <- t
+        obj.setAddress(rd.getValue(String.class, "Address"));  // t <- t
+        obj.setCity(rd.getValue(String.class, "City"));  // t <- t
+        obj.setRegion(rd.getValue(String.class, "Region"));  // t <- t
+        obj.setPostalCode(rd.getValue(String.class, "PostalCode"));  // t <- t
+        obj.setCountry(rd.getValue(String.class, "Country"));  // t <- t
+        obj.setHomePhone(rd.getValue(String.class, "HomePhone"));  // t <- t
+        obj.setExtension(rd.getValue(String.class, "Extension"));  // t <- t
+        obj.setPhoto(rd.getValue(String.class, "Photo"));  // t <- t
+        obj.setNotes(rd.getValue(String.class, "Notes"));  // t <- t
+        obj.setPhotoPath(rd.getValue(String.class, "PhotoPath"));  // t <- t
         return obj;
     }
 
@@ -325,8 +325,8 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 EmployeesTerritory obj = new EmployeesTerritory();
-                obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t(EmployeeID) <- t(EmployeeID)
-                obj.setTerritoryID(rd.getValue(Integer.class, "TerritoryID"));  // t(TerritoryID) <- t(TerritoryID)
+                obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t <- t
+                obj.setTerritoryID(rd.getValue(Integer.class, "TerritoryID"));  // t <- t
                 res.add(obj);
             }
         });
@@ -340,8 +340,8 @@ public class Crud_All_Dao {
         String sql = "select * from EmployeesTerritories where EmployeeID=? and TerritoryID=?";
         DataStore.RowData rd = ds.queryRow(sql, employeeID, territoryID);
         EmployeesTerritory obj = new EmployeesTerritory();
-        obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t(EmployeeID) <- t(EmployeeID)
-        obj.setTerritoryID(rd.getValue(Integer.class, "TerritoryID"));  // t(TerritoryID) <- t(TerritoryID)
+        obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t <- t
+        obj.setTerritoryID(rd.getValue(Integer.class, "TerritoryID"));  // t <- t
         return obj;
     }
 
@@ -363,8 +363,8 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 EmployeesTerritory obj = new EmployeesTerritory();
-                obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t(EmployeeID) <- t(EmployeeID) [INFO] SQL-shortcut
-                obj.setTerritoryID(rd.getValue(Integer.class, "TerritoryID"));  // t(TerritoryID) <- t(TerritoryID)
+                obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t <- t [INFO] SQL-shortcut
+                obj.setTerritoryID(rd.getValue(Integer.class, "TerritoryID"));  // t <- t
                 res.add(obj);
             }
         }, employee_id);
@@ -378,8 +378,8 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 EmployeesTerritory obj = new EmployeesTerritory();
-                obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t(EmployeeID) <- t(EmployeeID) [INFO] SQL-shortcut
-                obj.setTerritoryID(rd.getValue(Integer.class, "TerritoryID"));  // t(TerritoryID) <- t(TerritoryID)
+                obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t <- t [INFO] SQL-shortcut
+                obj.setTerritoryID(rd.getValue(Integer.class, "TerritoryID"));  // t <- t
                 res.add(obj);
             }
         }, territory_id);
@@ -414,9 +414,9 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 InternationalOrder obj = new InternationalOrder();
-                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t(OrderID) <- t(OrderID)
-                obj.setCustomsDescription(rd.getValue(String.class, "CustomsDescription"));  // t(CustomsDescription) <- t(CustomsDescription)
-                obj.setExciseTax(rd.getValue(String.class, "ExciseTax"));  // t(ExciseTax) <- t(ExciseTax)
+                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t <- t
+                obj.setCustomsDescription(rd.getValue(String.class, "CustomsDescription"));  // t <- t
+                obj.setExciseTax(rd.getValue(String.class, "ExciseTax"));  // t <- t
                 res.add(obj);
             }
         });
@@ -430,9 +430,9 @@ public class Crud_All_Dao {
         String sql = "select * from InternationalOrders where OrderID=?";
         DataStore.RowData rd = ds.queryRow(sql, orderID);
         InternationalOrder obj = new InternationalOrder();
-        obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t(OrderID) <- t(OrderID)
-        obj.setCustomsDescription(rd.getValue(String.class, "CustomsDescription"));  // t(CustomsDescription) <- t(CustomsDescription)
-        obj.setExciseTax(rd.getValue(String.class, "ExciseTax"));  // t(ExciseTax) <- t(ExciseTax)
+        obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t <- t
+        obj.setCustomsDescription(rd.getValue(String.class, "CustomsDescription"));  // t <- t
+        obj.setExciseTax(rd.getValue(String.class, "ExciseTax"));  // t <- t
         return obj;
     }
 
@@ -470,9 +470,9 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 InternationalOrder obj = new InternationalOrder();
-                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t(OrderID) <- t(OrderID) [INFO] SQL-shortcut
-                obj.setCustomsDescription(rd.getValue(String.class, "CustomsDescription"));  // t(CustomsDescription) <- t(CustomsDescription)
-                obj.setExciseTax(rd.getValue(String.class, "ExciseTax"));  // t(ExciseTax) <- t(ExciseTax)
+                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t <- t [INFO] SQL-shortcut
+                obj.setCustomsDescription(rd.getValue(String.class, "CustomsDescription"));  // t <- t
+                obj.setExciseTax(rd.getValue(String.class, "ExciseTax"));  // t <- t
                 res.add(obj);
             }
         }, order_id);
@@ -507,11 +507,11 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 OrderDetail obj = new OrderDetail();
-                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t(OrderID) <- t(OrderID)
-                obj.setProductID(rd.getValue(Integer.class, "ProductID"));  // t(ProductID) <- t(ProductID)
-                obj.setUnitPrice(rd.getValue(String.class, "UnitPrice"));  // t(UnitPrice) <- t(UnitPrice)
-                obj.setQuantity(rd.getValue(Integer.class, "Quantity"));  // t(Quantity) <- t(Quantity)
-                obj.setDiscount(rd.getValue(Float.class, "Discount"));  // t(Discount) <- t(Discount)
+                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t <- t
+                obj.setProductID(rd.getValue(Integer.class, "ProductID"));  // t <- t
+                obj.setUnitPrice(rd.getValue(String.class, "UnitPrice"));  // t <- t
+                obj.setQuantity(rd.getValue(Integer.class, "Quantity"));  // t <- t
+                obj.setDiscount(rd.getValue(Float.class, "Discount"));  // t <- t
                 res.add(obj);
             }
         });
@@ -525,11 +525,11 @@ public class Crud_All_Dao {
         String sql = "select * from OrderDetails where OrderID=? and ProductID=?";
         DataStore.RowData rd = ds.queryRow(sql, orderID, productID);
         OrderDetail obj = new OrderDetail();
-        obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t(OrderID) <- t(OrderID)
-        obj.setProductID(rd.getValue(Integer.class, "ProductID"));  // t(ProductID) <- t(ProductID)
-        obj.setUnitPrice(rd.getValue(String.class, "UnitPrice"));  // t(UnitPrice) <- t(UnitPrice)
-        obj.setQuantity(rd.getValue(Integer.class, "Quantity"));  // t(Quantity) <- t(Quantity)
-        obj.setDiscount(rd.getValue(Float.class, "Discount"));  // t(Discount) <- t(Discount)
+        obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t <- t
+        obj.setProductID(rd.getValue(Integer.class, "ProductID"));  // t <- t
+        obj.setUnitPrice(rd.getValue(String.class, "UnitPrice"));  // t <- t
+        obj.setQuantity(rd.getValue(Integer.class, "Quantity"));  // t <- t
+        obj.setDiscount(rd.getValue(Float.class, "Discount"));  // t <- t
         return obj;
     }
 
@@ -567,11 +567,11 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 OrderDetail obj = new OrderDetail();
-                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t(OrderID) <- t(OrderID) [INFO] SQL-shortcut
-                obj.setProductID(rd.getValue(Integer.class, "ProductID"));  // t(ProductID) <- t(ProductID)
-                obj.setUnitPrice(rd.getValue(String.class, "UnitPrice"));  // t(UnitPrice) <- t(UnitPrice)
-                obj.setQuantity(rd.getValue(Integer.class, "Quantity"));  // t(Quantity) <- t(Quantity)
-                obj.setDiscount(rd.getValue(Float.class, "Discount"));  // t(Discount) <- t(Discount)
+                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t <- t [INFO] SQL-shortcut
+                obj.setProductID(rd.getValue(Integer.class, "ProductID"));  // t <- t
+                obj.setUnitPrice(rd.getValue(String.class, "UnitPrice"));  // t <- t
+                obj.setQuantity(rd.getValue(Integer.class, "Quantity"));  // t <- t
+                obj.setDiscount(rd.getValue(Float.class, "Discount"));  // t <- t
                 res.add(obj);
             }
         }, order_id);
@@ -585,11 +585,11 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 OrderDetail obj = new OrderDetail();
-                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t(OrderID) <- t(OrderID) [INFO] SQL-shortcut
-                obj.setProductID(rd.getValue(Integer.class, "ProductID"));  // t(ProductID) <- t(ProductID)
-                obj.setUnitPrice(rd.getValue(String.class, "UnitPrice"));  // t(UnitPrice) <- t(UnitPrice)
-                obj.setQuantity(rd.getValue(Integer.class, "Quantity"));  // t(Quantity) <- t(Quantity)
-                obj.setDiscount(rd.getValue(Float.class, "Discount"));  // t(Discount) <- t(Discount)
+                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t <- t [INFO] SQL-shortcut
+                obj.setProductID(rd.getValue(Integer.class, "ProductID"));  // t <- t
+                obj.setUnitPrice(rd.getValue(String.class, "UnitPrice"));  // t <- t
+                obj.setQuantity(rd.getValue(Integer.class, "Quantity"));  // t <- t
+                obj.setDiscount(rd.getValue(Float.class, "Discount"));  // t <- t
                 res.add(obj);
             }
         }, product_id);
@@ -620,19 +620,19 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 Order obj = new Order();
-                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t(OrderID) <- t(OrderID)
-                obj.setCustomerID(rd.getValue(String.class, "CustomerID"));  // t(CustomerID) <- t(CustomerID)
-                obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t(EmployeeID) <- t(EmployeeID)
-                obj.setOrderDate(rd.getValue(String.class, "OrderDate"));  // t(OrderDate) <- t(OrderDate)
-                obj.setRequiredDate(rd.getValue(String.class, "RequiredDate"));  // t(RequiredDate) <- t(RequiredDate)
-                obj.setShippedDate(rd.getValue(String.class, "ShippedDate"));  // t(ShippedDate) <- t(ShippedDate)
-                obj.setFreight(rd.getValue(String.class, "Freight"));  // t(Freight) <- t(Freight)
-                obj.setShipName(rd.getValue(String.class, "ShipName"));  // t(ShipName) <- t(ShipName)
-                obj.setShipAddress(rd.getValue(String.class, "ShipAddress"));  // t(ShipAddress) <- t(ShipAddress)
-                obj.setShipCity(rd.getValue(String.class, "ShipCity"));  // t(ShipCity) <- t(ShipCity)
-                obj.setShipRegion(rd.getValue(String.class, "ShipRegion"));  // t(ShipRegion) <- t(ShipRegion)
-                obj.setShipPostalCode(rd.getValue(String.class, "ShipPostalCode"));  // t(ShipPostalCode) <- t(ShipPostalCode)
-                obj.setShipCountry(rd.getValue(String.class, "ShipCountry"));  // t(ShipCountry) <- t(ShipCountry)
+                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t <- t
+                obj.setCustomerID(rd.getValue(String.class, "CustomerID"));  // t <- t
+                obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t <- t
+                obj.setOrderDate(rd.getValue(String.class, "OrderDate"));  // t <- t
+                obj.setRequiredDate(rd.getValue(String.class, "RequiredDate"));  // t <- t
+                obj.setShippedDate(rd.getValue(String.class, "ShippedDate"));  // t <- t
+                obj.setFreight(rd.getValue(String.class, "Freight"));  // t <- t
+                obj.setShipName(rd.getValue(String.class, "ShipName"));  // t <- t
+                obj.setShipAddress(rd.getValue(String.class, "ShipAddress"));  // t <- t
+                obj.setShipCity(rd.getValue(String.class, "ShipCity"));  // t <- t
+                obj.setShipRegion(rd.getValue(String.class, "ShipRegion"));  // t <- t
+                obj.setShipPostalCode(rd.getValue(String.class, "ShipPostalCode"));  // t <- t
+                obj.setShipCountry(rd.getValue(String.class, "ShipCountry"));  // t <- t
                 res.add(obj);
             }
         });
@@ -646,19 +646,19 @@ public class Crud_All_Dao {
         String sql = "select * from Orders where OrderID=?";
         DataStore.RowData rd = ds.queryRow(sql, orderID);
         Order obj = new Order();
-        obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t(OrderID) <- t(OrderID)
-        obj.setCustomerID(rd.getValue(String.class, "CustomerID"));  // t(CustomerID) <- t(CustomerID)
-        obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t(EmployeeID) <- t(EmployeeID)
-        obj.setOrderDate(rd.getValue(String.class, "OrderDate"));  // t(OrderDate) <- t(OrderDate)
-        obj.setRequiredDate(rd.getValue(String.class, "RequiredDate"));  // t(RequiredDate) <- t(RequiredDate)
-        obj.setShippedDate(rd.getValue(String.class, "ShippedDate"));  // t(ShippedDate) <- t(ShippedDate)
-        obj.setFreight(rd.getValue(String.class, "Freight"));  // t(Freight) <- t(Freight)
-        obj.setShipName(rd.getValue(String.class, "ShipName"));  // t(ShipName) <- t(ShipName)
-        obj.setShipAddress(rd.getValue(String.class, "ShipAddress"));  // t(ShipAddress) <- t(ShipAddress)
-        obj.setShipCity(rd.getValue(String.class, "ShipCity"));  // t(ShipCity) <- t(ShipCity)
-        obj.setShipRegion(rd.getValue(String.class, "ShipRegion"));  // t(ShipRegion) <- t(ShipRegion)
-        obj.setShipPostalCode(rd.getValue(String.class, "ShipPostalCode"));  // t(ShipPostalCode) <- t(ShipPostalCode)
-        obj.setShipCountry(rd.getValue(String.class, "ShipCountry"));  // t(ShipCountry) <- t(ShipCountry)
+        obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t <- t
+        obj.setCustomerID(rd.getValue(String.class, "CustomerID"));  // t <- t
+        obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t <- t
+        obj.setOrderDate(rd.getValue(String.class, "OrderDate"));  // t <- t
+        obj.setRequiredDate(rd.getValue(String.class, "RequiredDate"));  // t <- t
+        obj.setShippedDate(rd.getValue(String.class, "ShippedDate"));  // t <- t
+        obj.setFreight(rd.getValue(String.class, "Freight"));  // t <- t
+        obj.setShipName(rd.getValue(String.class, "ShipName"));  // t <- t
+        obj.setShipAddress(rd.getValue(String.class, "ShipAddress"));  // t <- t
+        obj.setShipCity(rd.getValue(String.class, "ShipCity"));  // t <- t
+        obj.setShipRegion(rd.getValue(String.class, "ShipRegion"));  // t <- t
+        obj.setShipPostalCode(rd.getValue(String.class, "ShipPostalCode"));  // t <- t
+        obj.setShipCountry(rd.getValue(String.class, "ShipCountry"));  // t <- t
         return obj;
     }
 
@@ -696,19 +696,19 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 Order obj = new Order();
-                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t(OrderID) <- t(OrderID) [INFO] SQL-shortcut
-                obj.setCustomerID(rd.getValue(String.class, "CustomerID"));  // t(CustomerID) <- t(CustomerID)
-                obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t(EmployeeID) <- t(EmployeeID)
-                obj.setOrderDate(rd.getValue(String.class, "OrderDate"));  // t(OrderDate) <- t(OrderDate)
-                obj.setRequiredDate(rd.getValue(String.class, "RequiredDate"));  // t(RequiredDate) <- t(RequiredDate)
-                obj.setShippedDate(rd.getValue(String.class, "ShippedDate"));  // t(ShippedDate) <- t(ShippedDate)
-                obj.setFreight(rd.getValue(String.class, "Freight"));  // t(Freight) <- t(Freight)
-                obj.setShipName(rd.getValue(String.class, "ShipName"));  // t(ShipName) <- t(ShipName)
-                obj.setShipAddress(rd.getValue(String.class, "ShipAddress"));  // t(ShipAddress) <- t(ShipAddress)
-                obj.setShipCity(rd.getValue(String.class, "ShipCity"));  // t(ShipCity) <- t(ShipCity)
-                obj.setShipRegion(rd.getValue(String.class, "ShipRegion"));  // t(ShipRegion) <- t(ShipRegion)
-                obj.setShipPostalCode(rd.getValue(String.class, "ShipPostalCode"));  // t(ShipPostalCode) <- t(ShipPostalCode)
-                obj.setShipCountry(rd.getValue(String.class, "ShipCountry"));  // t(ShipCountry) <- t(ShipCountry)
+                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t <- t [INFO] SQL-shortcut
+                obj.setCustomerID(rd.getValue(String.class, "CustomerID"));  // t <- t
+                obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t <- t
+                obj.setOrderDate(rd.getValue(String.class, "OrderDate"));  // t <- t
+                obj.setRequiredDate(rd.getValue(String.class, "RequiredDate"));  // t <- t
+                obj.setShippedDate(rd.getValue(String.class, "ShippedDate"));  // t <- t
+                obj.setFreight(rd.getValue(String.class, "Freight"));  // t <- t
+                obj.setShipName(rd.getValue(String.class, "ShipName"));  // t <- t
+                obj.setShipAddress(rd.getValue(String.class, "ShipAddress"));  // t <- t
+                obj.setShipCity(rd.getValue(String.class, "ShipCity"));  // t <- t
+                obj.setShipRegion(rd.getValue(String.class, "ShipRegion"));  // t <- t
+                obj.setShipPostalCode(rd.getValue(String.class, "ShipPostalCode"));  // t <- t
+                obj.setShipCountry(rd.getValue(String.class, "ShipCountry"));  // t <- t
                 res.add(obj);
             }
         }, customer_id);
@@ -743,23 +743,23 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 PreviousEmployee obj = new PreviousEmployee();
-                obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t(EmployeeID) <- t(EmployeeID)
-                obj.setLastName(rd.getValue(String.class, "LastName"));  // t(LastName) <- t(LastName)
-                obj.setFirstName(rd.getValue(String.class, "FirstName"));  // t(FirstName) <- t(FirstName)
-                obj.setTitle(rd.getValue(String.class, "Title"));  // t(Title) <- t(Title)
-                obj.setTitleOfCourtesy(rd.getValue(String.class, "TitleOfCourtesy"));  // t(TitleOfCourtesy) <- t(TitleOfCourtesy)
-                obj.setBirthDate(rd.getValue(String.class, "BirthDate"));  // t(BirthDate) <- t(BirthDate)
-                obj.setHireDate(rd.getValue(String.class, "HireDate"));  // t(HireDate) <- t(HireDate)
-                obj.setAddress(rd.getValue(String.class, "Address"));  // t(Address) <- t(Address)
-                obj.setCity(rd.getValue(String.class, "City"));  // t(City) <- t(City)
-                obj.setRegion(rd.getValue(String.class, "Region"));  // t(Region) <- t(Region)
-                obj.setPostalCode(rd.getValue(String.class, "PostalCode"));  // t(PostalCode) <- t(PostalCode)
-                obj.setCountry(rd.getValue(String.class, "Country"));  // t(Country) <- t(Country)
-                obj.setHomePhone(rd.getValue(String.class, "HomePhone"));  // t(HomePhone) <- t(HomePhone)
-                obj.setExtension(rd.getValue(String.class, "Extension"));  // t(Extension) <- t(Extension)
-                obj.setPhoto(rd.getValue(String.class, "Photo"));  // t(Photo) <- t(Photo)
-                obj.setNotes(rd.getValue(String.class, "Notes"));  // t(Notes) <- t(Notes)
-                obj.setPhotoPath(rd.getValue(String.class, "PhotoPath"));  // t(PhotoPath) <- t(PhotoPath)
+                obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t <- t
+                obj.setLastName(rd.getValue(String.class, "LastName"));  // t <- t
+                obj.setFirstName(rd.getValue(String.class, "FirstName"));  // t <- t
+                obj.setTitle(rd.getValue(String.class, "Title"));  // t <- t
+                obj.setTitleOfCourtesy(rd.getValue(String.class, "TitleOfCourtesy"));  // t <- t
+                obj.setBirthDate(rd.getValue(String.class, "BirthDate"));  // t <- t
+                obj.setHireDate(rd.getValue(String.class, "HireDate"));  // t <- t
+                obj.setAddress(rd.getValue(String.class, "Address"));  // t <- t
+                obj.setCity(rd.getValue(String.class, "City"));  // t <- t
+                obj.setRegion(rd.getValue(String.class, "Region"));  // t <- t
+                obj.setPostalCode(rd.getValue(String.class, "PostalCode"));  // t <- t
+                obj.setCountry(rd.getValue(String.class, "Country"));  // t <- t
+                obj.setHomePhone(rd.getValue(String.class, "HomePhone"));  // t <- t
+                obj.setExtension(rd.getValue(String.class, "Extension"));  // t <- t
+                obj.setPhoto(rd.getValue(String.class, "Photo"));  // t <- t
+                obj.setNotes(rd.getValue(String.class, "Notes"));  // t <- t
+                obj.setPhotoPath(rd.getValue(String.class, "PhotoPath"));  // t <- t
                 res.add(obj);
             }
         });
@@ -773,23 +773,23 @@ public class Crud_All_Dao {
         String sql = "select * from PreviousEmployees where EmployeeID=?";
         DataStore.RowData rd = ds.queryRow(sql, employeeID);
         PreviousEmployee obj = new PreviousEmployee();
-        obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t(EmployeeID) <- t(EmployeeID)
-        obj.setLastName(rd.getValue(String.class, "LastName"));  // t(LastName) <- t(LastName)
-        obj.setFirstName(rd.getValue(String.class, "FirstName"));  // t(FirstName) <- t(FirstName)
-        obj.setTitle(rd.getValue(String.class, "Title"));  // t(Title) <- t(Title)
-        obj.setTitleOfCourtesy(rd.getValue(String.class, "TitleOfCourtesy"));  // t(TitleOfCourtesy) <- t(TitleOfCourtesy)
-        obj.setBirthDate(rd.getValue(String.class, "BirthDate"));  // t(BirthDate) <- t(BirthDate)
-        obj.setHireDate(rd.getValue(String.class, "HireDate"));  // t(HireDate) <- t(HireDate)
-        obj.setAddress(rd.getValue(String.class, "Address"));  // t(Address) <- t(Address)
-        obj.setCity(rd.getValue(String.class, "City"));  // t(City) <- t(City)
-        obj.setRegion(rd.getValue(String.class, "Region"));  // t(Region) <- t(Region)
-        obj.setPostalCode(rd.getValue(String.class, "PostalCode"));  // t(PostalCode) <- t(PostalCode)
-        obj.setCountry(rd.getValue(String.class, "Country"));  // t(Country) <- t(Country)
-        obj.setHomePhone(rd.getValue(String.class, "HomePhone"));  // t(HomePhone) <- t(HomePhone)
-        obj.setExtension(rd.getValue(String.class, "Extension"));  // t(Extension) <- t(Extension)
-        obj.setPhoto(rd.getValue(String.class, "Photo"));  // t(Photo) <- t(Photo)
-        obj.setNotes(rd.getValue(String.class, "Notes"));  // t(Notes) <- t(Notes)
-        obj.setPhotoPath(rd.getValue(String.class, "PhotoPath"));  // t(PhotoPath) <- t(PhotoPath)
+        obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t <- t
+        obj.setLastName(rd.getValue(String.class, "LastName"));  // t <- t
+        obj.setFirstName(rd.getValue(String.class, "FirstName"));  // t <- t
+        obj.setTitle(rd.getValue(String.class, "Title"));  // t <- t
+        obj.setTitleOfCourtesy(rd.getValue(String.class, "TitleOfCourtesy"));  // t <- t
+        obj.setBirthDate(rd.getValue(String.class, "BirthDate"));  // t <- t
+        obj.setHireDate(rd.getValue(String.class, "HireDate"));  // t <- t
+        obj.setAddress(rd.getValue(String.class, "Address"));  // t <- t
+        obj.setCity(rd.getValue(String.class, "City"));  // t <- t
+        obj.setRegion(rd.getValue(String.class, "Region"));  // t <- t
+        obj.setPostalCode(rd.getValue(String.class, "PostalCode"));  // t <- t
+        obj.setCountry(rd.getValue(String.class, "Country"));  // t <- t
+        obj.setHomePhone(rd.getValue(String.class, "HomePhone"));  // t <- t
+        obj.setExtension(rd.getValue(String.class, "Extension"));  // t <- t
+        obj.setPhoto(rd.getValue(String.class, "Photo"));  // t <- t
+        obj.setNotes(rd.getValue(String.class, "Notes"));  // t <- t
+        obj.setPhotoPath(rd.getValue(String.class, "PhotoPath"));  // t <- t
         return obj;
     }
 
@@ -844,17 +844,17 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 Product obj = new Product();
-                obj.setProductID(rd.getValue(Integer.class, "ProductID"));  // t(ProductID) <- t(ProductID)
-                obj.setProductName(rd.getValue(String.class, "ProductName"));  // t(ProductName) <- t(ProductName)
-                obj.setSupplierID(rd.getValue(Integer.class, "SupplierID"));  // t(SupplierID) <- t(SupplierID)
-                obj.setCategoryID(rd.getValue(Integer.class, "CategoryID"));  // t(CategoryID) <- t(CategoryID)
-                obj.setQuantityPerUnit(rd.getValue(String.class, "QuantityPerUnit"));  // t(QuantityPerUnit) <- t(QuantityPerUnit)
-                obj.setUnitPrice(rd.getValue(String.class, "UnitPrice"));  // t(UnitPrice) <- t(UnitPrice)
-                obj.setUnitsInStock(rd.getValue(Integer.class, "UnitsInStock"));  // t(UnitsInStock) <- t(UnitsInStock)
-                obj.setUnitsOnOrder(rd.getValue(Integer.class, "UnitsOnOrder"));  // t(UnitsOnOrder) <- t(UnitsOnOrder)
-                obj.setReorderLevel(rd.getValue(Integer.class, "ReorderLevel"));  // t(ReorderLevel) <- t(ReorderLevel)
-                obj.setDiscontinued(rd.getValue(String.class, "Discontinued"));  // t(Discontinued) <- t(Discontinued)
-                obj.setDiscontinuedDate(rd.getValue(String.class, "DiscontinuedDate"));  // t(DiscontinuedDate) <- t(DiscontinuedDate)
+                obj.setProductID(rd.getValue(Integer.class, "ProductID"));  // t <- t
+                obj.setProductName(rd.getValue(String.class, "ProductName"));  // t <- t
+                obj.setSupplierID(rd.getValue(Integer.class, "SupplierID"));  // t <- t
+                obj.setCategoryID(rd.getValue(Integer.class, "CategoryID"));  // t <- t
+                obj.setQuantityPerUnit(rd.getValue(String.class, "QuantityPerUnit"));  // t <- t
+                obj.setUnitPrice(rd.getValue(String.class, "UnitPrice"));  // t <- t
+                obj.setUnitsInStock(rd.getValue(Integer.class, "UnitsInStock"));  // t <- t
+                obj.setUnitsOnOrder(rd.getValue(Integer.class, "UnitsOnOrder"));  // t <- t
+                obj.setReorderLevel(rd.getValue(Integer.class, "ReorderLevel"));  // t <- t
+                obj.setDiscontinued(rd.getValue(String.class, "Discontinued"));  // t <- t
+                obj.setDiscontinuedDate(rd.getValue(String.class, "DiscontinuedDate"));  // t <- t
                 res.add(obj);
             }
         });
@@ -868,17 +868,17 @@ public class Crud_All_Dao {
         String sql = "select * from Products where ProductID=?";
         DataStore.RowData rd = ds.queryRow(sql, productID);
         Product obj = new Product();
-        obj.setProductID(rd.getValue(Integer.class, "ProductID"));  // t(ProductID) <- t(ProductID)
-        obj.setProductName(rd.getValue(String.class, "ProductName"));  // t(ProductName) <- t(ProductName)
-        obj.setSupplierID(rd.getValue(Integer.class, "SupplierID"));  // t(SupplierID) <- t(SupplierID)
-        obj.setCategoryID(rd.getValue(Integer.class, "CategoryID"));  // t(CategoryID) <- t(CategoryID)
-        obj.setQuantityPerUnit(rd.getValue(String.class, "QuantityPerUnit"));  // t(QuantityPerUnit) <- t(QuantityPerUnit)
-        obj.setUnitPrice(rd.getValue(String.class, "UnitPrice"));  // t(UnitPrice) <- t(UnitPrice)
-        obj.setUnitsInStock(rd.getValue(Integer.class, "UnitsInStock"));  // t(UnitsInStock) <- t(UnitsInStock)
-        obj.setUnitsOnOrder(rd.getValue(Integer.class, "UnitsOnOrder"));  // t(UnitsOnOrder) <- t(UnitsOnOrder)
-        obj.setReorderLevel(rd.getValue(Integer.class, "ReorderLevel"));  // t(ReorderLevel) <- t(ReorderLevel)
-        obj.setDiscontinued(rd.getValue(String.class, "Discontinued"));  // t(Discontinued) <- t(Discontinued)
-        obj.setDiscontinuedDate(rd.getValue(String.class, "DiscontinuedDate"));  // t(DiscontinuedDate) <- t(DiscontinuedDate)
+        obj.setProductID(rd.getValue(Integer.class, "ProductID"));  // t <- t
+        obj.setProductName(rd.getValue(String.class, "ProductName"));  // t <- t
+        obj.setSupplierID(rd.getValue(Integer.class, "SupplierID"));  // t <- t
+        obj.setCategoryID(rd.getValue(Integer.class, "CategoryID"));  // t <- t
+        obj.setQuantityPerUnit(rd.getValue(String.class, "QuantityPerUnit"));  // t <- t
+        obj.setUnitPrice(rd.getValue(String.class, "UnitPrice"));  // t <- t
+        obj.setUnitsInStock(rd.getValue(Integer.class, "UnitsInStock"));  // t <- t
+        obj.setUnitsOnOrder(rd.getValue(Integer.class, "UnitsOnOrder"));  // t <- t
+        obj.setReorderLevel(rd.getValue(Integer.class, "ReorderLevel"));  // t <- t
+        obj.setDiscontinued(rd.getValue(String.class, "Discontinued"));  // t <- t
+        obj.setDiscontinuedDate(rd.getValue(String.class, "DiscontinuedDate"));  // t <- t
         return obj;
     }
 
@@ -916,17 +916,17 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 Product obj = new Product();
-                obj.setProductID(rd.getValue(Integer.class, "ProductID"));  // t(ProductID) <- t(ProductID) [INFO] SQL-shortcut
-                obj.setProductName(rd.getValue(String.class, "ProductName"));  // t(ProductName) <- t(ProductName)
-                obj.setSupplierID(rd.getValue(Integer.class, "SupplierID"));  // t(SupplierID) <- t(SupplierID)
-                obj.setCategoryID(rd.getValue(Integer.class, "CategoryID"));  // t(CategoryID) <- t(CategoryID)
-                obj.setQuantityPerUnit(rd.getValue(String.class, "QuantityPerUnit"));  // t(QuantityPerUnit) <- t(QuantityPerUnit)
-                obj.setUnitPrice(rd.getValue(String.class, "UnitPrice"));  // t(UnitPrice) <- t(UnitPrice)
-                obj.setUnitsInStock(rd.getValue(Integer.class, "UnitsInStock"));  // t(UnitsInStock) <- t(UnitsInStock)
-                obj.setUnitsOnOrder(rd.getValue(Integer.class, "UnitsOnOrder"));  // t(UnitsOnOrder) <- t(UnitsOnOrder)
-                obj.setReorderLevel(rd.getValue(Integer.class, "ReorderLevel"));  // t(ReorderLevel) <- t(ReorderLevel)
-                obj.setDiscontinued(rd.getValue(String.class, "Discontinued"));  // t(Discontinued) <- t(Discontinued)
-                obj.setDiscontinuedDate(rd.getValue(String.class, "DiscontinuedDate"));  // t(DiscontinuedDate) <- t(DiscontinuedDate)
+                obj.setProductID(rd.getValue(Integer.class, "ProductID"));  // t <- t [INFO] SQL-shortcut
+                obj.setProductName(rd.getValue(String.class, "ProductName"));  // t <- t
+                obj.setSupplierID(rd.getValue(Integer.class, "SupplierID"));  // t <- t
+                obj.setCategoryID(rd.getValue(Integer.class, "CategoryID"));  // t <- t
+                obj.setQuantityPerUnit(rd.getValue(String.class, "QuantityPerUnit"));  // t <- t
+                obj.setUnitPrice(rd.getValue(String.class, "UnitPrice"));  // t <- t
+                obj.setUnitsInStock(rd.getValue(Integer.class, "UnitsInStock"));  // t <- t
+                obj.setUnitsOnOrder(rd.getValue(Integer.class, "UnitsOnOrder"));  // t <- t
+                obj.setReorderLevel(rd.getValue(Integer.class, "ReorderLevel"));  // t <- t
+                obj.setDiscontinued(rd.getValue(String.class, "Discontinued"));  // t <- t
+                obj.setDiscontinuedDate(rd.getValue(String.class, "DiscontinuedDate"));  // t <- t
                 res.add(obj);
             }
         }, supplier_id);
@@ -940,17 +940,17 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 Product obj = new Product();
-                obj.setProductID(rd.getValue(Integer.class, "ProductID"));  // t(ProductID) <- t(ProductID) [INFO] SQL-shortcut
-                obj.setProductName(rd.getValue(String.class, "ProductName"));  // t(ProductName) <- t(ProductName)
-                obj.setSupplierID(rd.getValue(Integer.class, "SupplierID"));  // t(SupplierID) <- t(SupplierID)
-                obj.setCategoryID(rd.getValue(Integer.class, "CategoryID"));  // t(CategoryID) <- t(CategoryID)
-                obj.setQuantityPerUnit(rd.getValue(String.class, "QuantityPerUnit"));  // t(QuantityPerUnit) <- t(QuantityPerUnit)
-                obj.setUnitPrice(rd.getValue(String.class, "UnitPrice"));  // t(UnitPrice) <- t(UnitPrice)
-                obj.setUnitsInStock(rd.getValue(Integer.class, "UnitsInStock"));  // t(UnitsInStock) <- t(UnitsInStock)
-                obj.setUnitsOnOrder(rd.getValue(Integer.class, "UnitsOnOrder"));  // t(UnitsOnOrder) <- t(UnitsOnOrder)
-                obj.setReorderLevel(rd.getValue(Integer.class, "ReorderLevel"));  // t(ReorderLevel) <- t(ReorderLevel)
-                obj.setDiscontinued(rd.getValue(String.class, "Discontinued"));  // t(Discontinued) <- t(Discontinued)
-                obj.setDiscontinuedDate(rd.getValue(String.class, "DiscontinuedDate"));  // t(DiscontinuedDate) <- t(DiscontinuedDate)
+                obj.setProductID(rd.getValue(Integer.class, "ProductID"));  // t <- t [INFO] SQL-shortcut
+                obj.setProductName(rd.getValue(String.class, "ProductName"));  // t <- t
+                obj.setSupplierID(rd.getValue(Integer.class, "SupplierID"));  // t <- t
+                obj.setCategoryID(rd.getValue(Integer.class, "CategoryID"));  // t <- t
+                obj.setQuantityPerUnit(rd.getValue(String.class, "QuantityPerUnit"));  // t <- t
+                obj.setUnitPrice(rd.getValue(String.class, "UnitPrice"));  // t <- t
+                obj.setUnitsInStock(rd.getValue(Integer.class, "UnitsInStock"));  // t <- t
+                obj.setUnitsOnOrder(rd.getValue(Integer.class, "UnitsOnOrder"));  // t <- t
+                obj.setReorderLevel(rd.getValue(Integer.class, "ReorderLevel"));  // t <- t
+                obj.setDiscontinued(rd.getValue(String.class, "Discontinued"));  // t <- t
+                obj.setDiscontinuedDate(rd.getValue(String.class, "DiscontinuedDate"));  // t <- t
                 res.add(obj);
             }
         }, category_id);
@@ -985,8 +985,8 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 Region obj = new Region();
-                obj.setRegionID(rd.getValue(Integer.class, "RegionID"));  // t(RegionID) <- t(RegionID)
-                obj.setRegionDescription(rd.getValue(String.class, "RegionDescription"));  // t(RegionDescription) <- t(RegionDescription)
+                obj.setRegionID(rd.getValue(Integer.class, "RegionID"));  // t <- t
+                obj.setRegionDescription(rd.getValue(String.class, "RegionDescription"));  // t <- t
                 res.add(obj);
             }
         });
@@ -1000,8 +1000,8 @@ public class Crud_All_Dao {
         String sql = "select * from Regions where RegionID=?";
         DataStore.RowData rd = ds.queryRow(sql, regionID);
         Region obj = new Region();
-        obj.setRegionID(rd.getValue(Integer.class, "RegionID"));  // t(RegionID) <- t(RegionID)
-        obj.setRegionDescription(rd.getValue(String.class, "RegionDescription"));  // t(RegionDescription) <- t(RegionDescription)
+        obj.setRegionID(rd.getValue(Integer.class, "RegionID"));  // t <- t
+        obj.setRegionDescription(rd.getValue(String.class, "RegionDescription"));  // t <- t
         return obj;
     }
 
@@ -1056,18 +1056,18 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 Supplier obj = new Supplier();
-                obj.setSupplierID(rd.getValue(Integer.class, "SupplierID"));  // t(SupplierID) <- t(SupplierID)
-                obj.setCompanyName(rd.getValue(String.class, "CompanyName"));  // t(CompanyName) <- t(CompanyName)
-                obj.setContactName(rd.getValue(String.class, "ContactName"));  // t(ContactName) <- t(ContactName)
-                obj.setContactTitle(rd.getValue(String.class, "ContactTitle"));  // t(ContactTitle) <- t(ContactTitle)
-                obj.setAddress(rd.getValue(String.class, "Address"));  // t(Address) <- t(Address)
-                obj.setCity(rd.getValue(String.class, "City"));  // t(City) <- t(City)
-                obj.setRegion(rd.getValue(String.class, "Region"));  // t(Region) <- t(Region)
-                obj.setPostalCode(rd.getValue(String.class, "PostalCode"));  // t(PostalCode) <- t(PostalCode)
-                obj.setCountry(rd.getValue(String.class, "Country"));  // t(Country) <- t(Country)
-                obj.setPhone(rd.getValue(String.class, "Phone"));  // t(Phone) <- t(Phone)
-                obj.setFax(rd.getValue(String.class, "Fax"));  // t(Fax) <- t(Fax)
-                obj.setHomePage(rd.getValue(String.class, "HomePage"));  // t(HomePage) <- t(HomePage)
+                obj.setSupplierID(rd.getValue(Integer.class, "SupplierID"));  // t <- t
+                obj.setCompanyName(rd.getValue(String.class, "CompanyName"));  // t <- t
+                obj.setContactName(rd.getValue(String.class, "ContactName"));  // t <- t
+                obj.setContactTitle(rd.getValue(String.class, "ContactTitle"));  // t <- t
+                obj.setAddress(rd.getValue(String.class, "Address"));  // t <- t
+                obj.setCity(rd.getValue(String.class, "City"));  // t <- t
+                obj.setRegion(rd.getValue(String.class, "Region"));  // t <- t
+                obj.setPostalCode(rd.getValue(String.class, "PostalCode"));  // t <- t
+                obj.setCountry(rd.getValue(String.class, "Country"));  // t <- t
+                obj.setPhone(rd.getValue(String.class, "Phone"));  // t <- t
+                obj.setFax(rd.getValue(String.class, "Fax"));  // t <- t
+                obj.setHomePage(rd.getValue(String.class, "HomePage"));  // t <- t
                 res.add(obj);
             }
         });
@@ -1081,18 +1081,18 @@ public class Crud_All_Dao {
         String sql = "select * from Suppliers where SupplierID=?";
         DataStore.RowData rd = ds.queryRow(sql, supplierID);
         Supplier obj = new Supplier();
-        obj.setSupplierID(rd.getValue(Integer.class, "SupplierID"));  // t(SupplierID) <- t(SupplierID)
-        obj.setCompanyName(rd.getValue(String.class, "CompanyName"));  // t(CompanyName) <- t(CompanyName)
-        obj.setContactName(rd.getValue(String.class, "ContactName"));  // t(ContactName) <- t(ContactName)
-        obj.setContactTitle(rd.getValue(String.class, "ContactTitle"));  // t(ContactTitle) <- t(ContactTitle)
-        obj.setAddress(rd.getValue(String.class, "Address"));  // t(Address) <- t(Address)
-        obj.setCity(rd.getValue(String.class, "City"));  // t(City) <- t(City)
-        obj.setRegion(rd.getValue(String.class, "Region"));  // t(Region) <- t(Region)
-        obj.setPostalCode(rd.getValue(String.class, "PostalCode"));  // t(PostalCode) <- t(PostalCode)
-        obj.setCountry(rd.getValue(String.class, "Country"));  // t(Country) <- t(Country)
-        obj.setPhone(rd.getValue(String.class, "Phone"));  // t(Phone) <- t(Phone)
-        obj.setFax(rd.getValue(String.class, "Fax"));  // t(Fax) <- t(Fax)
-        obj.setHomePage(rd.getValue(String.class, "HomePage"));  // t(HomePage) <- t(HomePage)
+        obj.setSupplierID(rd.getValue(Integer.class, "SupplierID"));  // t <- t
+        obj.setCompanyName(rd.getValue(String.class, "CompanyName"));  // t <- t
+        obj.setContactName(rd.getValue(String.class, "ContactName"));  // t <- t
+        obj.setContactTitle(rd.getValue(String.class, "ContactTitle"));  // t <- t
+        obj.setAddress(rd.getValue(String.class, "Address"));  // t <- t
+        obj.setCity(rd.getValue(String.class, "City"));  // t <- t
+        obj.setRegion(rd.getValue(String.class, "Region"));  // t <- t
+        obj.setPostalCode(rd.getValue(String.class, "PostalCode"));  // t <- t
+        obj.setCountry(rd.getValue(String.class, "Country"));  // t <- t
+        obj.setPhone(rd.getValue(String.class, "Phone"));  // t <- t
+        obj.setFax(rd.getValue(String.class, "Fax"));  // t <- t
+        obj.setHomePage(rd.getValue(String.class, "HomePage"));  // t <- t
         return obj;
     }
 
@@ -1151,9 +1151,9 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 Territory obj = new Territory();
-                obj.setTerritoryID(rd.getValue(Integer.class, "TerritoryID"));  // t(TerritoryID) <- t(TerritoryID)
-                obj.setTerritoryDescription(rd.getValue(String.class, "TerritoryDescription"));  // t(TerritoryDescription) <- t(TerritoryDescription)
-                obj.setRegionID(rd.getValue(Integer.class, "RegionID"));  // t(RegionID) <- t(RegionID)
+                obj.setTerritoryID(rd.getValue(Integer.class, "TerritoryID"));  // t <- t
+                obj.setTerritoryDescription(rd.getValue(String.class, "TerritoryDescription"));  // t <- t
+                obj.setRegionID(rd.getValue(Integer.class, "RegionID"));  // t <- t
                 res.add(obj);
             }
         });
@@ -1167,9 +1167,9 @@ public class Crud_All_Dao {
         String sql = "select * from Territories where TerritoryID=?";
         DataStore.RowData rd = ds.queryRow(sql, territoryID);
         Territory obj = new Territory();
-        obj.setTerritoryID(rd.getValue(Integer.class, "TerritoryID"));  // t(TerritoryID) <- t(TerritoryID)
-        obj.setTerritoryDescription(rd.getValue(String.class, "TerritoryDescription"));  // t(TerritoryDescription) <- t(TerritoryDescription)
-        obj.setRegionID(rd.getValue(Integer.class, "RegionID"));  // t(RegionID) <- t(RegionID)
+        obj.setTerritoryID(rd.getValue(Integer.class, "TerritoryID"));  // t <- t
+        obj.setTerritoryDescription(rd.getValue(String.class, "TerritoryDescription"));  // t <- t
+        obj.setRegionID(rd.getValue(Integer.class, "RegionID"));  // t <- t
         return obj;
     }
 
@@ -1207,9 +1207,9 @@ public class Crud_All_Dao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 Territory obj = new Territory();
-                obj.setTerritoryID(rd.getValue(Integer.class, "TerritoryID"));  // t(TerritoryID) <- t(TerritoryID) [INFO] SQL-shortcut
-                obj.setTerritoryDescription(rd.getValue(String.class, "TerritoryDescription"));  // t(TerritoryDescription) <- t(TerritoryDescription)
-                obj.setRegionID(rd.getValue(Integer.class, "RegionID"));  // t(RegionID) <- t(RegionID)
+                obj.setTerritoryID(rd.getValue(Integer.class, "TerritoryID"));  // t <- t [INFO] SQL-shortcut
+                obj.setTerritoryDescription(rd.getValue(String.class, "TerritoryDescription"));  // t <- t
+                obj.setRegionID(rd.getValue(Integer.class, "RegionID"));  // t <- t
                 res.add(obj);
             }
         }, region_id);

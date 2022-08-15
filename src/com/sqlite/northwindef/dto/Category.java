@@ -5,10 +5,10 @@ package com.sqlite.northwindef.dto;
 
 public class Category  {
 
-    private Integer categoryID;  // t(CategoryID)
-    private String categoryName;  // t(CategoryName)
-    private String description;  // t(Description)
-    private byte[] picture;  // t(Picture)
+    private Integer categoryID;  // t
+    private String categoryName;  // t
+    private String description;  // t
+    private byte[] picture;  // t
 
     public Integer getCategoryID() {
         return this.categoryID;

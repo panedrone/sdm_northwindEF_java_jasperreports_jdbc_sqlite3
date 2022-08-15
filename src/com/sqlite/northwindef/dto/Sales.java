@@ -5,10 +5,10 @@ package com.sqlite.northwindef.dto;
 
 public class Sales  {
 
-    private Object categoryID;  // q(CategoryID)
-    private Object categoryName;  // q(CategoryName)
-    private Object productName;  // q(ProductName)
-    private Object productSales;  // q(ProductSales)
+    private Object categoryID;  // q
+    private Object categoryName;  // q
+    private Object productName;  // q
+    private Object productSales;  // q
 
     public Object getCategoryID() {
         return this.categoryID;

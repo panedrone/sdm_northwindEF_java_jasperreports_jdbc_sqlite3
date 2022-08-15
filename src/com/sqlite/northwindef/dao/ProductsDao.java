@@ -37,9 +37,9 @@ public class ProductsDao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 ProductSales obj = new ProductSales();
-                obj.setCategoryName(rd.getValue(String.class, "CategoryName"));  // q(CategoryName) <- q(CategoryName)
-                obj.setProductName(rd.getValue(String.class, "ProductName"));  // q(ProductName) <- q(ProductName)
-                obj.setProductSales(rd.getValue(Double.class, "ProductSales"));  // q(ProductSales) <- q(ProductSales)
+                obj.setCategoryName(rd.getValue(String.class, "CategoryName"));  // q <- q
+                obj.setProductName(rd.getValue(String.class, "ProductName"));  // q <- q
+                obj.setProductSales(rd.getValue(Double.class, "ProductSales"));  // q <- q
                 res.add(obj);
             }
         }, d1, d2);

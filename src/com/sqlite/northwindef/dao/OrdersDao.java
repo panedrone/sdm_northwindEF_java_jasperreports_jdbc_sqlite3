@@ -44,19 +44,19 @@ public class OrdersDao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 Order obj = new Order();
-                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t(OrderID) <- t(OrderID)
-                obj.setCustomerID(rd.getValue(String.class, "CustomerID"));  // t(CustomerID) <- t(CustomerID)
-                obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t(EmployeeID) <- t(EmployeeID)
-                obj.setOrderDate(rd.getValue(String.class, "OrderDate"));  // t(OrderDate) <- t(OrderDate)
-                obj.setRequiredDate(rd.getValue(String.class, "RequiredDate"));  // t(RequiredDate) <- t(RequiredDate)
-                obj.setShippedDate(rd.getValue(String.class, "ShippedDate"));  // t(ShippedDate) <- t(ShippedDate)
-                obj.setFreight(rd.getValue(String.class, "Freight"));  // t(Freight) <- t(Freight)
-                obj.setShipName(rd.getValue(String.class, "ShipName"));  // t(ShipName) <- t(ShipName)
-                obj.setShipAddress(rd.getValue(String.class, "ShipAddress"));  // t(ShipAddress) <- t(ShipAddress)
-                obj.setShipCity(rd.getValue(String.class, "ShipCity"));  // t(ShipCity) <- t(ShipCity)
-                obj.setShipRegion(rd.getValue(String.class, "ShipRegion"));  // t(ShipRegion) <- t(ShipRegion)
-                obj.setShipPostalCode(rd.getValue(String.class, "ShipPostalCode"));  // t(ShipPostalCode) <- t(ShipPostalCode)
-                obj.setShipCountry(rd.getValue(String.class, "ShipCountry"));  // t(ShipCountry) <- t(ShipCountry)
+                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t <- t
+                obj.setCustomerID(rd.getValue(String.class, "CustomerID"));  // t <- t
+                obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t <- t
+                obj.setOrderDate(rd.getValue(String.class, "OrderDate"));  // t <- t
+                obj.setRequiredDate(rd.getValue(String.class, "RequiredDate"));  // t <- t
+                obj.setShippedDate(rd.getValue(String.class, "ShippedDate"));  // t <- t
+                obj.setFreight(rd.getValue(String.class, "Freight"));  // t <- t
+                obj.setShipName(rd.getValue(String.class, "ShipName"));  // t <- t
+                obj.setShipAddress(rd.getValue(String.class, "ShipAddress"));  // t <- t
+                obj.setShipCity(rd.getValue(String.class, "ShipCity"));  // t <- t
+                obj.setShipRegion(rd.getValue(String.class, "ShipRegion"));  // t <- t
+                obj.setShipPostalCode(rd.getValue(String.class, "ShipPostalCode"));  // t <- t
+                obj.setShipCountry(rd.getValue(String.class, "ShipCountry"));  // t <- t
                 res.add(obj);
             }
         });
@@ -70,19 +70,19 @@ public class OrdersDao {
         String sql = "select * from Orders where OrderID=?";
         DataStore.RowData rd = ds.queryRow(sql, orderID);
         Order obj = new Order();
-        obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t(OrderID) <- t(OrderID)
-        obj.setCustomerID(rd.getValue(String.class, "CustomerID"));  // t(CustomerID) <- t(CustomerID)
-        obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t(EmployeeID) <- t(EmployeeID)
-        obj.setOrderDate(rd.getValue(String.class, "OrderDate"));  // t(OrderDate) <- t(OrderDate)
-        obj.setRequiredDate(rd.getValue(String.class, "RequiredDate"));  // t(RequiredDate) <- t(RequiredDate)
-        obj.setShippedDate(rd.getValue(String.class, "ShippedDate"));  // t(ShippedDate) <- t(ShippedDate)
-        obj.setFreight(rd.getValue(String.class, "Freight"));  // t(Freight) <- t(Freight)
-        obj.setShipName(rd.getValue(String.class, "ShipName"));  // t(ShipName) <- t(ShipName)
-        obj.setShipAddress(rd.getValue(String.class, "ShipAddress"));  // t(ShipAddress) <- t(ShipAddress)
-        obj.setShipCity(rd.getValue(String.class, "ShipCity"));  // t(ShipCity) <- t(ShipCity)
-        obj.setShipRegion(rd.getValue(String.class, "ShipRegion"));  // t(ShipRegion) <- t(ShipRegion)
-        obj.setShipPostalCode(rd.getValue(String.class, "ShipPostalCode"));  // t(ShipPostalCode) <- t(ShipPostalCode)
-        obj.setShipCountry(rd.getValue(String.class, "ShipCountry"));  // t(ShipCountry) <- t(ShipCountry)
+        obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // t <- t
+        obj.setCustomerID(rd.getValue(String.class, "CustomerID"));  // t <- t
+        obj.setEmployeeID(rd.getValue(Integer.class, "EmployeeID"));  // t <- t
+        obj.setOrderDate(rd.getValue(String.class, "OrderDate"));  // t <- t
+        obj.setRequiredDate(rd.getValue(String.class, "RequiredDate"));  // t <- t
+        obj.setShippedDate(rd.getValue(String.class, "ShippedDate"));  // t <- t
+        obj.setFreight(rd.getValue(String.class, "Freight"));  // t <- t
+        obj.setShipName(rd.getValue(String.class, "ShipName"));  // t <- t
+        obj.setShipAddress(rd.getValue(String.class, "ShipAddress"));  // t <- t
+        obj.setShipCity(rd.getValue(String.class, "ShipCity"));  // t <- t
+        obj.setShipRegion(rd.getValue(String.class, "ShipRegion"));  // t <- t
+        obj.setShipPostalCode(rd.getValue(String.class, "ShipPostalCode"));  // t <- t
+        obj.setShipCountry(rd.getValue(String.class, "ShipCountry"));  // t <- t
         return obj;
     }
 
@@ -122,8 +122,8 @@ public class OrdersDao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 OrderSubtotal obj = new OrderSubtotal();
-                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // q(OrderID) <- q(OrderID)
-                obj.setSubtotal(rd.getValue(Double.class, "Subtotal"));  // q(Subtotal) <- q(Subtotal)
+                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // q <- q
+                obj.setSubtotal(rd.getValue(Double.class, "Subtotal"));  // q <- q
                 res.add(obj);
             }
         });
@@ -140,9 +140,9 @@ public class OrdersDao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 QuarterlyOrdersByProduct obj = new QuarterlyOrdersByProduct();
-                obj.setProductName(rd.getValue(Object.class, "ProductName"));  // q(ProductName) <- q(ProductName)
-                obj.setCustomerID(rd.getValue(Object.class, "CustomerID"));  // q(CustomerID) <- q(CustomerID)
-                obj.setOrderYear(rd.getValue(Object.class, "OrderYear"));  // q(OrderYear) <- q(OrderYear)
+                obj.setProductName(rd.getValue(Object.class, "ProductName"));  // q <- q
+                obj.setCustomerID(rd.getValue(Object.class, "CustomerID"));  // q <- q
+                obj.setOrderYear(rd.getValue(Object.class, "OrderYear"));  // q <- q
                 res.add(obj);
             }
         }, d1, d2);
@@ -165,13 +165,13 @@ public class OrdersDao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 OrderDetailsExtended obj = new OrderDetailsExtended();
-                obj.setOrderID(rd.getValue(Object.class, "OrderID"));  // q(OrderID) <- q(OrderID)
-                obj.setProductID(rd.getValue(Object.class, "ProductID"));  // q(ProductID) <- q(ProductID)
-                obj.setProductName(rd.getValue(Object.class, "ProductName"));  // q(ProductName) <- q(ProductName)
-                obj.setUnitPrice(rd.getValue(Object.class, "UnitPrice"));  // q(UnitPrice) <- q(UnitPrice)
-                obj.setQuantity(rd.getValue(Object.class, "Quantity"));  // q(Quantity) <- q(Quantity)
-                obj.setDiscount(rd.getValue(Object.class, "Discount"));  // q(Discount) <- q(Discount)
-                obj.setExtendedPrice(rd.getValue(Object.class, "ExtendedPrice"));  // q(ExtendedPrice) <- q(ExtendedPrice)
+                obj.setOrderID(rd.getValue(Object.class, "OrderID"));  // q <- q
+                obj.setProductID(rd.getValue(Object.class, "ProductID"));  // q <- q
+                obj.setProductName(rd.getValue(Object.class, "ProductName"));  // q <- q
+                obj.setUnitPrice(rd.getValue(Object.class, "UnitPrice"));  // q <- q
+                obj.setQuantity(rd.getValue(Object.class, "Quantity"));  // q <- q
+                obj.setDiscount(rd.getValue(Object.class, "Discount"));  // q <- q
+                obj.setExtendedPrice(rd.getValue(Object.class, "ExtendedPrice"));  // q <- q
                 res.add(obj);
             }
         });

@@ -5,11 +5,11 @@ package com.sqlite.northwindef.dto;
 
 public class OrderDetail  {
 
-    private Integer orderID;  // t(OrderID)
-    private Integer productID;  // t(ProductID)
-    private String unitPrice;  // t(UnitPrice)
-    private Integer quantity;  // t(Quantity)
-    private Float discount;  // t(Discount)
+    private Integer orderID;  // t
+    private Integer productID;  // t
+    private String unitPrice;  // t
+    private Integer quantity;  // t
+    private Float discount;  // t
 
     public Integer getOrderID() {
         return this.orderID;

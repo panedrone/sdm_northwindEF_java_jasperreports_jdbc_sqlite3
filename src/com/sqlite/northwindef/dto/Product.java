@@ -5,17 +5,17 @@ package com.sqlite.northwindef.dto;
 
 public class Product  {
 
-    private Integer productID;  // t(ProductID)
-    private String productName;  // t(ProductName)
-    private Integer supplierID;  // t(SupplierID)
-    private Integer categoryID;  // t(CategoryID)
-    private String quantityPerUnit;  // t(QuantityPerUnit)
-    private String unitPrice;  // t(UnitPrice)
-    private Integer unitsInStock;  // t(UnitsInStock)
-    private Integer unitsOnOrder;  // t(UnitsOnOrder)
-    private Integer reorderLevel;  // t(ReorderLevel)
-    private String discontinued;  // t(Discontinued)
-    private String discontinuedDate;  // t(DiscontinuedDate)
+    private Integer productID;  // t
+    private String productName;  // t
+    private Integer supplierID;  // t
+    private Integer categoryID;  // t
+    private String quantityPerUnit;  // t
+    private String unitPrice;  // t
+    private Integer unitsInStock;  // t
+    private Integer unitsOnOrder;  // t
+    private Integer reorderLevel;  // t
+    private String discontinued;  // t
+    private String discontinuedDate;  // t
 
     public Integer getProductID() {
         return this.productID;

@@ -5,10 +5,10 @@ package com.sqlite.northwindef.dto;
 
 public class SalesByYear  {
 
-    private String shippedDate;  // q(ShippedDate)
-    private Integer orderID;  // q(OrderID)
-    private Double productSales;  // q(ProductSales)
-    private String shippedYear;  // q(ShippedYear)
+    private String shippedDate;  // q
+    private Integer orderID;  // q
+    private Double productSales;  // q
+    private String shippedYear;  // q
 
     public String getShippedDate() {
         return this.shippedDate;

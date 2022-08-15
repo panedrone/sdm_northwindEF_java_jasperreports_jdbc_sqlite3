@@ -29,10 +29,10 @@ public class SalesDao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 Sales obj = new Sales();
-                obj.setCategoryID(rd.getValue(Object.class, "CategoryID"));  // q(CategoryID) <- q(CategoryID)
-                obj.setCategoryName(rd.getValue(Object.class, "CategoryName"));  // q(CategoryName) <- q(CategoryName)
-                obj.setProductName(rd.getValue(Object.class, "ProductName"));  // q(ProductName) <- q(ProductName)
-                obj.setProductSales(rd.getValue(Object.class, "ProductSales"));  // q(ProductSales) <- q(ProductSales)
+                obj.setCategoryID(rd.getValue(Object.class, "CategoryID"));  // q <- q
+                obj.setCategoryName(rd.getValue(Object.class, "CategoryName"));  // q <- q
+                obj.setProductName(rd.getValue(Object.class, "ProductName"));  // q <- q
+                obj.setProductSales(rd.getValue(Object.class, "ProductSales"));  // q <- q
                 res.add(obj);
             }
         }, d1, d2);
@@ -48,10 +48,10 @@ public class SalesDao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 SalesByYear obj = new SalesByYear();
-                obj.setShippedDate(rd.getValue(String.class, "ShippedDate"));  // q(ShippedDate) <- q(ShippedDate)
-                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // q(OrderID) <- q(OrderID)
-                obj.setProductSales(rd.getValue(Double.class, "ProductSales"));  // q(ProductSales) <- q(ProductSales)
-                obj.setShippedYear(rd.getValue(String.class, "ShippedYear"));  // q(ShippedYear) <- q(ShippedYear)
+                obj.setShippedDate(rd.getValue(String.class, "ShippedDate"));  // q <- q
+                obj.setOrderID(rd.getValue(Integer.class, "OrderID"));  // q <- q
+                obj.setProductSales(rd.getValue(Double.class, "ProductSales"));  // q <- q
+                obj.setShippedYear(rd.getValue(String.class, "ShippedYear"));  // q <- q
                 res.add(obj);
             }
         }, d1, d2);

@@ -5,18 +5,18 @@ package com.sqlite.northwindef.dto;
 
 public class Supplier  {
 
-    private Integer supplierID;  // t(SupplierID)
-    private String companyName;  // t(CompanyName)
-    private String contactName;  // t(ContactName)
-    private String contactTitle;  // t(ContactTitle)
-    private String address;  // t(Address)
-    private String city;  // t(City)
-    private String region;  // t(Region)
-    private String postalCode;  // t(PostalCode)
-    private String country;  // t(Country)
-    private String phone;  // t(Phone)
-    private String fax;  // t(Fax)
-    private String homePage;  // t(HomePage)
+    private Integer supplierID;  // t
+    private String companyName;  // t
+    private String contactName;  // t
+    private String contactTitle;  // t
+    private String address;  // t
+    private String city;  // t
+    private String region;  // t
+    private String postalCode;  // t
+    private String country;  // t
+    private String phone;  // t
+    private String fax;  // t
+    private String homePage;  // t
 
     public Integer getSupplierID() {
         return this.supplierID;

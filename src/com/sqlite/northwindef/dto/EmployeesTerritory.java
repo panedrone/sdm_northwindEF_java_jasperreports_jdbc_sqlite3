@@ -5,8 +5,8 @@ package com.sqlite.northwindef.dto;
 
 public class EmployeesTerritory  {
 
-    private Integer employeeID;  // t(EmployeeID)
-    private Integer territoryID;  // t(TerritoryID)
+    private Integer employeeID;  // t
+    private Integer territoryID;  // t
 
     public Integer getEmployeeID() {
         return this.employeeID;
