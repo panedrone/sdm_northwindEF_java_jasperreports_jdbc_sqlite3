@@ -345,7 +345,7 @@ public class Crud_All_Dao {
         return obj;
     }
 
-    // INFO: updateEmployeesTerritory is omitted because all columns are part of PK.
+    // INFO: updateEmployeesTerritory is not rendered because all columns are part of PK.
 
     /*
         CRU(D): EmployeesTerritories

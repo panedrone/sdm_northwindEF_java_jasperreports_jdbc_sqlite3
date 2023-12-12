@@ -5,32 +5,32 @@ package com.sqlite.northwindef.dto;
 
 public class Category  {
 
-    private Integer categoryID;  // t
-    private String categoryName;  // t
-    private String description;  // t
+    private java.lang.Integer categoryID;  // t
+    private java.lang.String categoryName;  // t
+    private java.lang.String description;  // t
     private byte[] picture;  // t
 
-    public Integer getCategoryID() {
+    public java.lang.Integer getCategoryID() {
         return this.categoryID;
     }
 
-    public void setCategoryID(Integer categoryID) {
+    public void setCategoryID(java.lang.Integer categoryID) {
         this.categoryID = categoryID;
     }
 
-    public String getCategoryName() {
+    public java.lang.String getCategoryName() {
         return this.categoryName;
     }
 
-    public void setCategoryName(String categoryName) {
+    public void setCategoryName(java.lang.String categoryName) {
         this.categoryName = categoryName;
     }
 
-    public String getDescription() {
+    public java.lang.String getDescription() {
         return this.description;
     }
 
-    public void setDescription(String description) {
+    public void setDescription(java.lang.String description) {
         this.description = description;
     }
 

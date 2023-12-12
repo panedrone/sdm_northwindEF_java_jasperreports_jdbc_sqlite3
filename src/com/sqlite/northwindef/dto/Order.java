@@ -5,121 +5,121 @@ package com.sqlite.northwindef.dto;
 
 public class Order  {
 
-    private Integer orderID;  // t
-    private String customerID;  // t
-    private Integer employeeID;  // t
-    private String orderDate;  // t
-    private String requiredDate;  // t
-    private String shippedDate;  // t
-    private String freight;  // t
-    private String shipName;  // t
-    private String shipAddress;  // t
-    private String shipCity;  // t
-    private String shipRegion;  // t
-    private String shipPostalCode;  // t
-    private String shipCountry;  // t
+    private java.lang.Integer orderID;  // t
+    private java.lang.String customerID;  // t
+    private java.lang.Integer employeeID;  // t
+    private java.lang.String orderDate;  // t
+    private java.lang.String requiredDate;  // t
+    private java.lang.String shippedDate;  // t
+    private java.lang.String freight;  // t
+    private java.lang.String shipName;  // t
+    private java.lang.String shipAddress;  // t
+    private java.lang.String shipCity;  // t
+    private java.lang.String shipRegion;  // t
+    private java.lang.String shipPostalCode;  // t
+    private java.lang.String shipCountry;  // t
 
-    public Integer getOrderID() {
+    public java.lang.Integer getOrderID() {
         return this.orderID;
     }
 
-    public void setOrderID(Integer orderID) {
+    public void setOrderID(java.lang.Integer orderID) {
         this.orderID = orderID;
     }
 
-    public String getCustomerID() {
+    public java.lang.String getCustomerID() {
         return this.customerID;
     }
 
-    public void setCustomerID(String customerID) {
+    public void setCustomerID(java.lang.String customerID) {
         this.customerID = customerID;
     }
 
-    public Integer getEmployeeID() {
+    public java.lang.Integer getEmployeeID() {
         return this.employeeID;
     }
 
-    public void setEmployeeID(Integer employeeID) {
+    public void setEmployeeID(java.lang.Integer employeeID) {
         this.employeeID = employeeID;
     }
 
-    public String getOrderDate() {
+    public java.lang.String getOrderDate() {
         return this.orderDate;
     }
 
-    public void setOrderDate(String orderDate) {
+    public void setOrderDate(java.lang.String orderDate) {
         this.orderDate = orderDate;
     }
 
-    public String getRequiredDate() {
+    public java.lang.String getRequiredDate() {
         return this.requiredDate;
     }
 
-    public void setRequiredDate(String requiredDate) {
+    public void setRequiredDate(java.lang.String requiredDate) {
         this.requiredDate = requiredDate;
     }
 
-    public String getShippedDate() {
+    public java.lang.String getShippedDate() {
         return this.shippedDate;
     }
 
-    public void setShippedDate(String shippedDate) {
+    public void setShippedDate(java.lang.String shippedDate) {
         this.shippedDate = shippedDate;
     }
 
-    public String getFreight() {
+    public java.lang.String getFreight() {
         return this.freight;
     }
 
-    public void setFreight(String freight) {
+    public void setFreight(java.lang.String freight) {
         this.freight = freight;
     }
 
-    public String getShipName() {
+    public java.lang.String getShipName() {
         return this.shipName;
     }
 
-    public void setShipName(String shipName) {
+    public void setShipName(java.lang.String shipName) {
         this.shipName = shipName;
     }
 
-    public String getShipAddress() {
+    public java.lang.String getShipAddress() {
         return this.shipAddress;
     }
 
-    public void setShipAddress(String shipAddress) {
+    public void setShipAddress(java.lang.String shipAddress) {
         this.shipAddress = shipAddress;
     }
 
-    public String getShipCity() {
+    public java.lang.String getShipCity() {
         return this.shipCity;
     }
 
-    public void setShipCity(String shipCity) {
+    public void setShipCity(java.lang.String shipCity) {
         this.shipCity = shipCity;
     }
 
-    public String getShipRegion() {
+    public java.lang.String getShipRegion() {
         return this.shipRegion;
     }
 
-    public void setShipRegion(String shipRegion) {
+    public void setShipRegion(java.lang.String shipRegion) {
         this.shipRegion = shipRegion;
     }
 
-    public String getShipPostalCode() {
+    public java.lang.String getShipPostalCode() {
         return this.shipPostalCode;
     }
 
-    public void setShipPostalCode(String shipPostalCode) {
+    public void setShipPostalCode(java.lang.String shipPostalCode) {
         this.shipPostalCode = shipPostalCode;
     }
 
-    public String getShipCountry() {
+    public java.lang.String getShipCountry() {
         return this.shipCountry;
     }
 
-    public void setShipCountry(String shipCountry) {
+    public void setShipCountry(java.lang.String shipCountry) {
         this.shipCountry = shipCountry;
     }
 }

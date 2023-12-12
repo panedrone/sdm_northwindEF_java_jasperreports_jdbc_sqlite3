@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dto-classes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:noNamespaceSchemaLocation="dto.xsd">
+<sdm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="sdm.xsd">
 
     <dto-class name="OrderSubtotal" ref="orders/OrderSubtotals.sql">
         <field type="Integer" column="OrderID"/>
@@ -20,48 +20,14 @@
         <field type="Double" column="ProductSales"/>
     </dto-class>
 
-    <dto-class name="Invoice" ref="invoices/getInvoices.sql">
-        <field type="Object" column="ShipName"/>
-        <field type="Object" column="ShipAddress"/>
-        <field type="Object" column="ShipCity"/>
-        <field type="Object" column="ShipRegion"/>
-        <field type="Object" column="ShipPostalCode"/>
-        <field type="Object" column="ShipCountry"/>
-        <field type="Object" column="CustomerID:1"/>
-        <field type="Object" column="CompanyName"/>
-        <field type="Object" column="Address:1"/>
-        <field type="Object" column="City:1"/>
-        <field type="Object" column="Region:1"/>
-        <field type="Object" column="PostalCode:1"/>
-        <field type="Object" column="Country:1"/>
-        <field type="Object" column="Salesperson"/>
-        <field type="Object" column="OrderID"/>
-        <field type="Object" column="OrderDate"/>
-        <field type="Object" column="RequiredDate"/>
-        <field type="Object" column="ShippedDate"/>
-        <field type="Object" column="ProductID"/>
-        <field type="Object" column="ProductName"/>
-        <field type="Object" column="UnitPrice"/>
-        <field type="Object" column="Quantity"/>
-        <field type="Object" column="Discount"/>
-        <field type="Object" column="ExtendedPrice"/>
-        <field type="Object" column="Freight"/>
-    </dto-class>
-        
-    <dto-class name="OrderDetailsExtended" ref="orders/Order Details Extended.sql">
-        <field type="Object" column="OrderID"/>
-        <field type="Object" column="ProductID"/>
-        <field type="Object" column="ProductName"/>
-        <field type="Object" column="UnitPrice"/>
-        <field type="Object" column="Quantity"/>
-        <field type="Object" column="Discount"/>
-        <field type="Object" column="ExtendedPrice"/>
-    </dto-class>
+    <dto-class name="Invoice" ref="invoices/getInvoices.sql"/>
+
+    <dto-class name="OrderDetailsExtended" ref="orders/Order Details Extended.sql"/>
 
     <dto-class name="Sales" ref="sales/Sales by Category.sql" >
-        <field type="Object" column="CategoryID"/>
-        <field type="Object" column="CategoryName"/>
-        <field type="Object" column="ProductName"/>
+        <field type="Integer" column="CategoryID"/>
+        <field type="String" column="CategoryName"/>
+        <field type="String" column="ProductName"/>
         <field type="Object" column="ProductSales"/>
     </dto-class>
 
@@ -82,7 +48,7 @@
     <dto-class name="Category" ref="Categories">
         <field type="byte[]" column="Picture"/>
     </dto-class>
-    
+
     <dto-class name="Customer" ref="Customers"/>
     <dto-class name="Employee" ref="Employees"/>
     <dto-class name="EmployeesTerritory" ref="EmployeesTerritories"/>
@@ -95,4 +61,4 @@
     <dto-class name="Supplier" ref="Suppliers"/>
     <dto-class name="Territory" ref="Territories"/>
 
-</dto-classes>
+</sdm>

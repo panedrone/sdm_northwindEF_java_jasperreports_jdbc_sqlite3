@@ -5,22 +5,22 @@ package com.sqlite.northwindef.dto;
 
 public class Region  {
 
-    private Integer regionID;  // t
-    private String regionDescription;  // t
+    private java.lang.Integer regionID;  // t
+    private java.lang.String regionDescription;  // t
 
-    public Integer getRegionID() {
+    public java.lang.Integer getRegionID() {
         return this.regionID;
     }
 
-    public void setRegionID(Integer regionID) {
+    public void setRegionID(java.lang.Integer regionID) {
         this.regionID = regionID;
     }
 
-    public String getRegionDescription() {
+    public java.lang.String getRegionDescription() {
         return this.regionDescription;
     }
 
-    public void setRegionDescription(String regionDescription) {
+    public void setRegionDescription(java.lang.String regionDescription) {
         this.regionDescription = regionDescription;
     }
 }

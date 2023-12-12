@@ -5,67 +5,67 @@ package com.sqlite.northwindef.dto;
 
 public class OrderDetailsExtended  {
 
-    private Object orderID;  // q
-    private Object productID;  // q
-    private Object productName;  // q
-    private Object unitPrice;  // q
-    private Object quantity;  // q
-    private Object discount;  // q
-    private Object extendedPrice;  // q
+    private java.lang.Object orderID;  // q
+    private java.lang.Object productID;  // q
+    private java.lang.Object productName;  // q
+    private java.lang.Object unitPrice;  // q
+    private java.lang.Object quantity;  // q
+    private java.lang.Object discount;  // q
+    private java.lang.Object extendedPrice;  // q
 
-    public Object getOrderID() {
+    public java.lang.Object getOrderID() {
         return this.orderID;
     }
 
-    public void setOrderID(Object orderID) {
+    public void setOrderID(java.lang.Object orderID) {
         this.orderID = orderID;
     }
 
-    public Object getProductID() {
+    public java.lang.Object getProductID() {
         return this.productID;
     }
 
-    public void setProductID(Object productID) {
+    public void setProductID(java.lang.Object productID) {
         this.productID = productID;
     }
 
-    public Object getProductName() {
+    public java.lang.Object getProductName() {
         return this.productName;
     }
 
-    public void setProductName(Object productName) {
+    public void setProductName(java.lang.Object productName) {
         this.productName = productName;
     }
 
-    public Object getUnitPrice() {
+    public java.lang.Object getUnitPrice() {
         return this.unitPrice;
     }
 
-    public void setUnitPrice(Object unitPrice) {
+    public void setUnitPrice(java.lang.Object unitPrice) {
         this.unitPrice = unitPrice;
     }
 
-    public Object getQuantity() {
+    public java.lang.Object getQuantity() {
         return this.quantity;
     }
 
-    public void setQuantity(Object quantity) {
+    public void setQuantity(java.lang.Object quantity) {
         this.quantity = quantity;
     }
 
-    public Object getDiscount() {
+    public java.lang.Object getDiscount() {
         return this.discount;
     }
 
-    public void setDiscount(Object discount) {
+    public void setDiscount(java.lang.Object discount) {
         this.discount = discount;
     }
 
-    public Object getExtendedPrice() {
+    public java.lang.Object getExtendedPrice() {
         return this.extendedPrice;
     }
 
-    public void setExtendedPrice(Object extendedPrice) {
+    public void setExtendedPrice(java.lang.Object extendedPrice) {
         this.extendedPrice = extendedPrice;
     }
 }

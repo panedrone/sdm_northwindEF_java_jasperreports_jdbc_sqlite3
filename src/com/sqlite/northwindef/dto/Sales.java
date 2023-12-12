@@ -5,32 +5,32 @@ package com.sqlite.northwindef.dto;
 
 public class Sales  {
 
-    private Object categoryID;  // q
-    private Object categoryName;  // q
-    private Object productName;  // q
+    private Integer categoryID;  // q
+    private String categoryName;  // q
+    private String productName;  // q
     private Object productSales;  // q
 
-    public Object getCategoryID() {
+    public Integer getCategoryID() {
         return this.categoryID;
     }
 
-    public void setCategoryID(Object categoryID) {
+    public void setCategoryID(Integer categoryID) {
         this.categoryID = categoryID;
     }
 
-    public Object getCategoryName() {
+    public String getCategoryName() {
         return this.categoryName;
     }
 
-    public void setCategoryName(Object categoryName) {
+    public void setCategoryName(String categoryName) {
         this.categoryName = categoryName;
     }
 
-    public Object getProductName() {
+    public String getProductName() {
         return this.productName;
     }
 
-    public void setProductName(Object productName) {
+    public void setProductName(String productName) {
         this.productName = productName;
     }
 

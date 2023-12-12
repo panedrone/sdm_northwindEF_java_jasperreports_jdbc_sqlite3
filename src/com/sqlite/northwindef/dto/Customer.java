@@ -5,103 +5,103 @@ package com.sqlite.northwindef.dto;
 
 public class Customer  {
 
-    private String customerID;  // t
-    private String companyName;  // t
-    private String contactName;  // t
-    private String contactTitle;  // t
-    private String address;  // t
-    private String city;  // t
-    private String region;  // t
-    private String postalCode;  // t
-    private String country;  // t
-    private String phone;  // t
-    private String fax;  // t
+    private java.lang.String customerID;  // t
+    private java.lang.String companyName;  // t
+    private java.lang.String contactName;  // t
+    private java.lang.String contactTitle;  // t
+    private java.lang.String address;  // t
+    private java.lang.String city;  // t
+    private java.lang.String region;  // t
+    private java.lang.String postalCode;  // t
+    private java.lang.String country;  // t
+    private java.lang.String phone;  // t
+    private java.lang.String fax;  // t
 
-    public String getCustomerID() {
+    public java.lang.String getCustomerID() {
         return this.customerID;
     }
 
-    public void setCustomerID(String customerID) {
+    public void setCustomerID(java.lang.String customerID) {
         this.customerID = customerID;
     }
 
-    public String getCompanyName() {
+    public java.lang.String getCompanyName() {
         return this.companyName;
     }
 
-    public void setCompanyName(String companyName) {
+    public void setCompanyName(java.lang.String companyName) {
         this.companyName = companyName;
     }
 
-    public String getContactName() {
+    public java.lang.String getContactName() {
         return this.contactName;
     }
 
-    public void setContactName(String contactName) {
+    public void setContactName(java.lang.String contactName) {
         this.contactName = contactName;
     }
 
-    public String getContactTitle() {
+    public java.lang.String getContactTitle() {
         return this.contactTitle;
     }
 
-    public void setContactTitle(String contactTitle) {
+    public void setContactTitle(java.lang.String contactTitle) {
         this.contactTitle = contactTitle;
     }
 
-    public String getAddress() {
+    public java.lang.String getAddress() {
         return this.address;
     }
 
-    public void setAddress(String address) {
+    public void setAddress(java.lang.String address) {
         this.address = address;
     }
 
-    public String getCity() {
+    public java.lang.String getCity() {
         return this.city;
     }
 
-    public void setCity(String city) {
+    public void setCity(java.lang.String city) {
         this.city = city;
     }
 
-    public String getRegion() {
+    public java.lang.String getRegion() {
         return this.region;
     }
 
-    public void setRegion(String region) {
+    public void setRegion(java.lang.String region) {
         this.region = region;
     }
 
-    public String getPostalCode() {
+    public java.lang.String getPostalCode() {
         return this.postalCode;
     }
 
-    public void setPostalCode(String postalCode) {
+    public void setPostalCode(java.lang.String postalCode) {
         this.postalCode = postalCode;
     }
 
-    public String getCountry() {
+    public java.lang.String getCountry() {
         return this.country;
     }
 
-    public void setCountry(String country) {
+    public void setCountry(java.lang.String country) {
         this.country = country;
     }
 
-    public String getPhone() {
+    public java.lang.String getPhone() {
         return this.phone;
     }
 
-    public void setPhone(String phone) {
+    public void setPhone(java.lang.String phone) {
         this.phone = phone;
     }
 
-    public String getFax() {
+    public java.lang.String getFax() {
         return this.fax;
     }
 
-    public void setFax(String fax) {
+    public void setFax(java.lang.String fax) {
         this.fax = fax;
     }
 }

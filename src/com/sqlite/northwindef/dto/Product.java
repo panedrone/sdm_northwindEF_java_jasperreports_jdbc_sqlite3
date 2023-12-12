@@ -5,103 +5,103 @@ package com.sqlite.northwindef.dto;
 
 public class Product  {
 
-    private Integer productID;  // t
-    private String productName;  // t
-    private Integer supplierID;  // t
-    private Integer categoryID;  // t
-    private String quantityPerUnit;  // t
-    private String unitPrice;  // t
-    private Integer unitsInStock;  // t
-    private Integer unitsOnOrder;  // t
-    private Integer reorderLevel;  // t
-    private String discontinued;  // t
-    private String discontinuedDate;  // t
+    private java.lang.Integer productID;  // t
+    private java.lang.String productName;  // t
+    private java.lang.Integer supplierID;  // t
+    private java.lang.Integer categoryID;  // t
+    private java.lang.String quantityPerUnit;  // t
+    private java.lang.String unitPrice;  // t
+    private java.lang.Integer unitsInStock;  // t
+    private java.lang.Integer unitsOnOrder;  // t
+    private java.lang.Integer reorderLevel;  // t
+    private java.lang.String discontinued;  // t
+    private java.lang.String discontinuedDate;  // t
 
-    public Integer getProductID() {
+    public java.lang.Integer getProductID() {
         return this.productID;
     }
 
-    public void setProductID(Integer productID) {
+    public void setProductID(java.lang.Integer productID) {
         this.productID = productID;
     }
 
-    public String getProductName() {
+    public java.lang.String getProductName() {
         return this.productName;
     }
 
-    public void setProductName(String productName) {
+    public void setProductName(java.lang.String productName) {
         this.productName = productName;
     }
 
-    public Integer getSupplierID() {
+    public java.lang.Integer getSupplierID() {
         return this.supplierID;
     }
 
-    public void setSupplierID(Integer supplierID) {
+    public void setSupplierID(java.lang.Integer supplierID) {
         this.supplierID = supplierID;
     }
 
-    public Integer getCategoryID() {
+    public java.lang.Integer getCategoryID() {
         return this.categoryID;
     }
 
-    public void setCategoryID(Integer categoryID) {
+    public void setCategoryID(java.lang.Integer categoryID) {
         this.categoryID = categoryID;
     }
 
-    public String getQuantityPerUnit() {
+    public java.lang.String getQuantityPerUnit() {
         return this.quantityPerUnit;
     }
 
-    public void setQuantityPerUnit(String quantityPerUnit) {
+    public void setQuantityPerUnit(java.lang.String quantityPerUnit) {
         this.quantityPerUnit = quantityPerUnit;
     }
 
-    public String getUnitPrice() {
+    public java.lang.String getUnitPrice() {
         return this.unitPrice;
     }
 
-    public void setUnitPrice(String unitPrice) {
+    public void setUnitPrice(java.lang.String unitPrice) {
         this.unitPrice = unitPrice;
     }
 
-    public Integer getUnitsInStock() {
+    public java.lang.Integer getUnitsInStock() {
         return this.unitsInStock;
     }
 
-    public void setUnitsInStock(Integer unitsInStock) {
+    public void setUnitsInStock(java.lang.Integer unitsInStock) {
         this.unitsInStock = unitsInStock;
     }
 
-    public Integer getUnitsOnOrder() {
+    public java.lang.Integer getUnitsOnOrder() {
         return this.unitsOnOrder;
     }
 
-    public void setUnitsOnOrder(Integer unitsOnOrder) {
+    public void setUnitsOnOrder(java.lang.Integer unitsOnOrder) {
         this.unitsOnOrder = unitsOnOrder;
     }
 
-    public Integer getReorderLevel() {
+    public java.lang.Integer getReorderLevel() {
         return this.reorderLevel;
     }
 
-    public void setReorderLevel(Integer reorderLevel) {
+    public void setReorderLevel(java.lang.Integer reorderLevel) {
         this.reorderLevel = reorderLevel;
     }
 
-    public String getDiscontinued() {
+    public java.lang.String getDiscontinued() {
         return this.discontinued;
     }
 
-    public void setDiscontinued(String discontinued) {
+    public void setDiscontinued(java.lang.String discontinued) {
         this.discontinued = discontinued;
     }
 
-    public String getDiscontinuedDate() {
+    public java.lang.String getDiscontinuedDate() {
         return this.discontinuedDate;
     }
 
-    public void setDiscontinuedDate(String discontinuedDate) {
+    public void setDiscontinuedDate(java.lang.String discontinuedDate) {
         this.discontinuedDate = discontinuedDate;
     }
 }

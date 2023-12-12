@@ -5,157 +5,157 @@ package com.sqlite.northwindef.dto;
 
 public class Employee  {
 
-    private Integer employeeID;  // t
-    private String lastName;  // t
-    private String firstName;  // t
-    private String title;  // t
-    private String titleOfCourtesy;  // t
-    private String birthDate;  // t
-    private String hireDate;  // t
-    private String address;  // t
-    private String city;  // t
-    private String region;  // t
-    private String postalCode;  // t
-    private String country;  // t
-    private String homePhone;  // t
-    private String extension;  // t
-    private String photo;  // t
-    private String notes;  // t
-    private String photoPath;  // t
+    private java.lang.Integer employeeID;  // t
+    private java.lang.String lastName;  // t
+    private java.lang.String firstName;  // t
+    private java.lang.String title;  // t
+    private java.lang.String titleOfCourtesy;  // t
+    private java.lang.String birthDate;  // t
+    private java.lang.String hireDate;  // t
+    private java.lang.String address;  // t
+    private java.lang.String city;  // t
+    private java.lang.String region;  // t
+    private java.lang.String postalCode;  // t
+    private java.lang.String country;  // t
+    private java.lang.String homePhone;  // t
+    private java.lang.String extension;  // t
+    private java.lang.String photo;  // t
+    private java.lang.String notes;  // t
+    private java.lang.String photoPath;  // t
 
-    public Integer getEmployeeID() {
+    public java.lang.Integer getEmployeeID() {
         return this.employeeID;
     }
 
-    public void setEmployeeID(Integer employeeID) {
+    public void setEmployeeID(java.lang.Integer employeeID) {
         this.employeeID = employeeID;
     }
 
-    public String getLastName() {
+    public java.lang.String getLastName() {
         return this.lastName;
     }
 
-    public void setLastName(String lastName) {
+    public void setLastName(java.lang.String lastName) {
         this.lastName = lastName;
     }
 
-    public String getFirstName() {
+    public java.lang.String getFirstName() {
         return this.firstName;
     }
 
-    public void setFirstName(String firstName) {
+    public void setFirstName(java.lang.String firstName) {
         this.firstName = firstName;
     }
 
-    public String getTitle() {
+    public java.lang.String getTitle() {
         return this.title;
     }
 
-    public void setTitle(String title) {
+    public void setTitle(java.lang.String title) {
         this.title = title;
     }
 
-    public String getTitleOfCourtesy() {
+    public java.lang.String getTitleOfCourtesy() {
         return this.titleOfCourtesy;
     }
 
-    public void setTitleOfCourtesy(String titleOfCourtesy) {
+    public void setTitleOfCourtesy(java.lang.String titleOfCourtesy) {
         this.titleOfCourtesy = titleOfCourtesy;
     }
 
-    public String getBirthDate() {
+    public java.lang.String getBirthDate() {
         return this.birthDate;
     }
 
-    public void setBirthDate(String birthDate) {
+    public void setBirthDate(java.lang.String birthDate) {
         this.birthDate = birthDate;
     }
 
-    public String getHireDate() {
+    public java.lang.String getHireDate() {
         return this.hireDate;
     }
 
-    public void setHireDate(String hireDate) {
+    public void setHireDate(java.lang.String hireDate) {
         this.hireDate = hireDate;
     }
 
-    public String getAddress() {
+    public java.lang.String getAddress() {
         return this.address;
     }
 
-    public void setAddress(String address) {
+    public void setAddress(java.lang.String address) {
         this.address = address;
     }
 
-    public String getCity() {
+    public java.lang.String getCity() {
         return this.city;
     }
 
-    public void setCity(String city) {
+    public void setCity(java.lang.String city) {
         this.city = city;
     }
 
-    public String getRegion() {
+    public java.lang.String getRegion() {
         return this.region;
     }
 
-    public void setRegion(String region) {
+    public void setRegion(java.lang.String region) {
         this.region = region;
     }
 
-    public String getPostalCode() {
+    public java.lang.String getPostalCode() {
         return this.postalCode;
     }
 
-    public void setPostalCode(String postalCode) {
+    public void setPostalCode(java.lang.String postalCode) {
         this.postalCode = postalCode;
     }
 
-    public String getCountry() {
+    public java.lang.String getCountry() {
         return this.country;
     }
 
-    public void setCountry(String country) {
+    public void setCountry(java.lang.String country) {
         this.country = country;
     }
 
-    public String getHomePhone() {
+    public java.lang.String getHomePhone() {
         return this.homePhone;
     }
 
-    public void setHomePhone(String homePhone) {
+    public void setHomePhone(java.lang.String homePhone) {
         this.homePhone = homePhone;
     }
 
-    public String getExtension() {
+    public java.lang.String getExtension() {
         return this.extension;
     }
 
-    public void setExtension(String extension) {
+    public void setExtension(java.lang.String extension) {
         this.extension = extension;
     }
 
-    public String getPhoto() {
+    public java.lang.String getPhoto() {
         return this.photo;
     }
 
-    public void setPhoto(String photo) {
+    public void setPhoto(java.lang.String photo) {
         this.photo = photo;
     }
 
-    public String getNotes() {
+    public java.lang.String getNotes() {
         return this.notes;
     }
 
-    public void setNotes(String notes) {
+    public void setNotes(java.lang.String notes) {
         this.notes = notes;
     }
 
-    public String getPhotoPath() {
+    public java.lang.String getPhotoPath() {
         return this.photoPath;
     }
 
-    public void setPhotoPath(String photoPath) {
+    public void setPhotoPath(java.lang.String photoPath) {
         this.photoPath = photoPath;
     }
 }

@@ -5,31 +5,31 @@ package com.sqlite.northwindef.dto;
 
 public class InternationalOrder  {
 
-    private Integer orderID;  // t
-    private String customsDescription;  // t
-    private String exciseTax;  // t
+    private java.lang.Integer orderID;  // t
+    private java.lang.String customsDescription;  // t
+    private java.lang.String exciseTax;  // t
 
-    public Integer getOrderID() {
+    public java.lang.Integer getOrderID() {
         return this.orderID;
     }
 
-    public void setOrderID(Integer orderID) {
+    public void setOrderID(java.lang.Integer orderID) {
         this.orderID = orderID;
     }
 
-    public String getCustomsDescription() {
+    public java.lang.String getCustomsDescription() {
         return this.customsDescription;
     }
 
-    public void setCustomsDescription(String customsDescription) {
+    public void setCustomsDescription(java.lang.String customsDescription) {
         this.customsDescription = customsDescription;
     }
 
-    public String getExciseTax() {
+    public java.lang.String getExciseTax() {
         return this.exciseTax;
     }
 
-    public void setExciseTax(String exciseTax) {
+    public void setExciseTax(java.lang.String exciseTax) {
         this.exciseTax = exciseTax;
     }
 }

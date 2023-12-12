@@ -5,49 +5,49 @@ package com.sqlite.northwindef.dto;
 
 public class OrderDetail  {
 
-    private Integer orderID;  // t
-    private Integer productID;  // t
-    private String unitPrice;  // t
-    private Integer quantity;  // t
-    private Float discount;  // t
+    private java.lang.Integer orderID;  // t
+    private java.lang.Integer productID;  // t
+    private java.lang.String unitPrice;  // t
+    private java.lang.Integer quantity;  // t
+    private java.lang.Float discount;  // t
 
-    public Integer getOrderID() {
+    public java.lang.Integer getOrderID() {
         return this.orderID;
     }
 
-    public void setOrderID(Integer orderID) {
+    public void setOrderID(java.lang.Integer orderID) {
         this.orderID = orderID;
     }
 
-    public Integer getProductID() {
+    public java.lang.Integer getProductID() {
         return this.productID;
     }
 
-    public void setProductID(Integer productID) {
+    public void setProductID(java.lang.Integer productID) {
         this.productID = productID;
     }
 
-    public String getUnitPrice() {
+    public java.lang.String getUnitPrice() {
         return this.unitPrice;
     }
 
-    public void setUnitPrice(String unitPrice) {
+    public void setUnitPrice(java.lang.String unitPrice) {
         this.unitPrice = unitPrice;
     }
 
-    public Integer getQuantity() {
+    public java.lang.Integer getQuantity() {
         return this.quantity;
     }
 
-    public void setQuantity(Integer quantity) {
+    public void setQuantity(java.lang.Integer quantity) {
         this.quantity = quantity;
     }
 
-    public Float getDiscount() {
+    public java.lang.Float getDiscount() {
         return this.discount;
     }
 
-    public void setDiscount(Float discount) {
+    public void setDiscount(java.lang.Float discount) {
         this.discount = discount;
     }
 }

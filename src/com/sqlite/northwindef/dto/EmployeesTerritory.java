@@ -5,22 +5,22 @@ package com.sqlite.northwindef.dto;
 
 public class EmployeesTerritory  {
 
-    private Integer employeeID;  // t
-    private Integer territoryID;  // t
+    private java.lang.Integer employeeID;  // t
+    private java.lang.Integer territoryID;  // t
 
-    public Integer getEmployeeID() {
+    public java.lang.Integer getEmployeeID() {
         return this.employeeID;
     }
 
-    public void setEmployeeID(Integer employeeID) {
+    public void setEmployeeID(java.lang.Integer employeeID) {
         this.employeeID = employeeID;
     }
 
-    public Integer getTerritoryID() {
+    public java.lang.Integer getTerritoryID() {
         return this.territoryID;
     }
 
-    public void setTerritoryID(Integer territoryID) {
+    public void setTerritoryID(java.lang.Integer territoryID) {
         this.territoryID = territoryID;
     }
 }

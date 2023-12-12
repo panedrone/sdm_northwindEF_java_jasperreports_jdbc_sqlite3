@@ -5,229 +5,229 @@ package com.sqlite.northwindef.dto;
 
 public class Invoice  {
 
-    private Object shipName;  // q
-    private Object shipAddress;  // q
-    private Object shipCity;  // q
-    private Object shipRegion;  // q
-    private Object shipPostalCode;  // q
-    private Object shipCountry;  // q
-    private Object customerID1;  // q
-    private Object companyName;  // q
-    private Object address1;  // q
-    private Object city1;  // q
-    private Object region1;  // q
-    private Object postalCode1;  // q
-    private Object country1;  // q
-    private Object salesperson;  // q
-    private Object orderID;  // q
-    private Object orderDate;  // q
-    private Object requiredDate;  // q
-    private Object shippedDate;  // q
-    private Object productID;  // q
-    private Object productName;  // q
-    private Object unitPrice;  // q
-    private Object quantity;  // q
-    private Object discount;  // q
-    private Object extendedPrice;  // q
-    private Object freight;  // q
+    private java.lang.Object shipName;  // q
+    private java.lang.Object shipAddress;  // q
+    private java.lang.Object shipCity;  // q
+    private java.lang.Object shipRegion;  // q
+    private java.lang.Object shipPostalCode;  // q
+    private java.lang.Object shipCountry;  // q
+    private java.lang.Object customerID1;  // q
+    private java.lang.Object companyName;  // q
+    private java.lang.Object address1;  // q
+    private java.lang.Object city1;  // q
+    private java.lang.Object region1;  // q
+    private java.lang.Object postalCode1;  // q
+    private java.lang.Object country1;  // q
+    private java.lang.Object salesperson;  // q
+    private java.lang.Object orderID;  // q
+    private java.lang.Object orderDate;  // q
+    private java.lang.Object requiredDate;  // q
+    private java.lang.Object shippedDate;  // q
+    private java.lang.Object productID;  // q
+    private java.lang.Object productName;  // q
+    private java.lang.Object unitPrice;  // q
+    private java.lang.Object quantity;  // q
+    private java.lang.Object discount;  // q
+    private java.lang.Object extendedPrice;  // q
+    private java.lang.Object freight;  // q
 
-    public Object getShipName() {
+    public java.lang.Object getShipName() {
         return this.shipName;
     }
 
-    public void setShipName(Object shipName) {
+    public void setShipName(java.lang.Object shipName) {
         this.shipName = shipName;
     }
 
-    public Object getShipAddress() {
+    public java.lang.Object getShipAddress() {
         return this.shipAddress;
     }
 
-    public void setShipAddress(Object shipAddress) {
+    public void setShipAddress(java.lang.Object shipAddress) {
         this.shipAddress = shipAddress;
     }
 
-    public Object getShipCity() {
+    public java.lang.Object getShipCity() {
         return this.shipCity;
     }
 
-    public void setShipCity(Object shipCity) {
+    public void setShipCity(java.lang.Object shipCity) {
         this.shipCity = shipCity;
     }
 
-    public Object getShipRegion() {
+    public java.lang.Object getShipRegion() {
         return this.shipRegion;
     }
 
-    public void setShipRegion(Object shipRegion) {
+    public void setShipRegion(java.lang.Object shipRegion) {
         this.shipRegion = shipRegion;
     }
 
-    public Object getShipPostalCode() {
+    public java.lang.Object getShipPostalCode() {
         return this.shipPostalCode;
     }
 
-    public void setShipPostalCode(Object shipPostalCode) {
+    public void setShipPostalCode(java.lang.Object shipPostalCode) {
         this.shipPostalCode = shipPostalCode;
     }
 
-    public Object getShipCountry() {
+    public java.lang.Object getShipCountry() {
         return this.shipCountry;
     }
 
-    public void setShipCountry(Object shipCountry) {
+    public void setShipCountry(java.lang.Object shipCountry) {
         this.shipCountry = shipCountry;
     }
 
-    public Object getCustomerID1() {
+    public java.lang.Object getCustomerID1() {
         return this.customerID1;
     }
 
-    public void setCustomerID1(Object customerID1) {
+    public void setCustomerID1(java.lang.Object customerID1) {
         this.customerID1 = customerID1;
     }
 
-    public Object getCompanyName() {
+    public java.lang.Object getCompanyName() {
         return this.companyName;
     }
 
-    public void setCompanyName(Object companyName) {
+    public void setCompanyName(java.lang.Object companyName) {
         this.companyName = companyName;
     }
 
-    public Object getAddress1() {
+    public java.lang.Object getAddress1() {
         return this.address1;
     }
 
-    public void setAddress1(Object address1) {
+    public void setAddress1(java.lang.Object address1) {
         this.address1 = address1;
     }
 
-    public Object getCity1() {
+    public java.lang.Object getCity1() {
         return this.city1;
     }
 
-    public void setCity1(Object city1) {
+    public void setCity1(java.lang.Object city1) {
         this.city1 = city1;
     }
 
-    public Object getRegion1() {
+    public java.lang.Object getRegion1() {
         return this.region1;
     }
 
-    public void setRegion1(Object region1) {
+    public void setRegion1(java.lang.Object region1) {
         this.region1 = region1;
     }
 
-    public Object getPostalCode1() {
+    public java.lang.Object getPostalCode1() {
         return this.postalCode1;
     }
 
-    public void setPostalCode1(Object postalCode1) {
+    public void setPostalCode1(java.lang.Object postalCode1) {
         this.postalCode1 = postalCode1;
     }
 
-    public Object getCountry1() {
+    public java.lang.Object getCountry1() {
         return this.country1;
     }
 
-    public void setCountry1(Object country1) {
+    public void setCountry1(java.lang.Object country1) {
         this.country1 = country1;
     }
 
-    public Object getSalesperson() {
+    public java.lang.Object getSalesperson() {
         return this.salesperson;
     }
 
-    public void setSalesperson(Object salesperson) {
+    public void setSalesperson(java.lang.Object salesperson) {
         this.salesperson = salesperson;
     }
 
-    public Object getOrderID() {
+    public java.lang.Object getOrderID() {
         return this.orderID;
     }
 
-    public void setOrderID(Object orderID) {
+    public void setOrderID(java.lang.Object orderID) {
         this.orderID = orderID;
     }
 
-    public Object getOrderDate() {
+    public java.lang.Object getOrderDate() {
         return this.orderDate;
     }
 
-    public void setOrderDate(Object orderDate) {
+    public void setOrderDate(java.lang.Object orderDate) {
         this.orderDate = orderDate;
     }
 
-    public Object getRequiredDate() {
+    public java.lang.Object getRequiredDate() {
         return this.requiredDate;
     }
 
-    public void setRequiredDate(Object requiredDate) {
+    public void setRequiredDate(java.lang.Object requiredDate) {
         this.requiredDate = requiredDate;
     }
 
-    public Object getShippedDate() {
+    public java.lang.Object getShippedDate() {
         return this.shippedDate;
     }
 
-    public void setShippedDate(Object shippedDate) {
+    public void setShippedDate(java.lang.Object shippedDate) {
         this.shippedDate = shippedDate;
     }
 
-    public Object getProductID() {
+    public java.lang.Object getProductID() {
         return this.productID;
     }
 
-    public void setProductID(Object productID) {
+    public void setProductID(java.lang.Object productID) {
         this.productID = productID;
     }
 
-    public Object getProductName() {
+    public java.lang.Object getProductName() {
         return this.productName;
     }
 
-    public void setProductName(Object productName) {
+    public void setProductName(java.lang.Object productName) {
         this.productName = productName;
     }
 
-    public Object getUnitPrice() {
+    public java.lang.Object getUnitPrice() {
         return this.unitPrice;
     }
 
-    public void setUnitPrice(Object unitPrice) {
+    public void setUnitPrice(java.lang.Object unitPrice) {
         this.unitPrice = unitPrice;
     }
 
-    public Object getQuantity() {
+    public java.lang.Object getQuantity() {
         return this.quantity;
     }
 
-    public void setQuantity(Object quantity) {
+    public void setQuantity(java.lang.Object quantity) {
         this.quantity = quantity;
     }
 
-    public Object getDiscount() {
+    public java.lang.Object getDiscount() {
         return this.discount;
     }
 
-    public void setDiscount(Object discount) {
+    public void setDiscount(java.lang.Object discount) {
         this.discount = discount;
     }
 
-    public Object getExtendedPrice() {
+    public java.lang.Object getExtendedPrice() {
         return this.extendedPrice;
     }
 
-    public void setExtendedPrice(Object extendedPrice) {
+    public void setExtendedPrice(java.lang.Object extendedPrice) {
         this.extendedPrice = extendedPrice;
     }
 
-    public Object getFreight() {
+    public java.lang.Object getFreight() {
         return this.freight;
     }
 
-    public void setFreight(Object freight) {
+    public void setFreight(java.lang.Object freight) {
         this.freight = freight;
     }
 }

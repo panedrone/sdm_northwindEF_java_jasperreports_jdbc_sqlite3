@@ -5,31 +5,31 @@ package com.sqlite.northwindef.dto;
 
 public class Territory  {
 
-    private Integer territoryID;  // t
-    private String territoryDescription;  // t
-    private Integer regionID;  // t
+    private java.lang.Integer territoryID;  // t
+    private java.lang.String territoryDescription;  // t
+    private java.lang.Integer regionID;  // t
 
-    public Integer getTerritoryID() {
+    public java.lang.Integer getTerritoryID() {
         return this.territoryID;
     }
 
-    public void setTerritoryID(Integer territoryID) {
+    public void setTerritoryID(java.lang.Integer territoryID) {
         this.territoryID = territoryID;
     }
 
-    public String getTerritoryDescription() {
+    public java.lang.String getTerritoryDescription() {
         return this.territoryDescription;
     }
 
-    public void setTerritoryDescription(String territoryDescription) {
+    public void setTerritoryDescription(java.lang.String territoryDescription) {
         this.territoryDescription = territoryDescription;
     }
 
-    public Integer getRegionID() {
+    public java.lang.Integer getRegionID() {
         return this.regionID;
     }
 
-    public void setRegionID(Integer regionID) {
+    public void setRegionID(java.lang.Integer regionID) {
         this.regionID = regionID;
     }
 }

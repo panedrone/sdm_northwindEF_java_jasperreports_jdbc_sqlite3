@@ -29,9 +29,9 @@ public class SalesDao {
             @Override
             public void handleRow(DataStore.RowData rd) throws Exception {
                 Sales obj = new Sales();
-                obj.setCategoryID(rd.getValue(Object.class, "CategoryID"));  // q <- q
-                obj.setCategoryName(rd.getValue(Object.class, "CategoryName"));  // q <- q
-                obj.setProductName(rd.getValue(Object.class, "ProductName"));  // q <- q
+                obj.setCategoryID(rd.getValue(Integer.class, "CategoryID"));  // q <- q
+                obj.setCategoryName(rd.getValue(String.class, "CategoryName"));  // q <- q
+                obj.setProductName(rd.getValue(String.class, "ProductName"));  // q <- q
                 obj.setProductSales(rd.getValue(Object.class, "ProductSales"));  // q <- q
                 res.add(obj);
             }
