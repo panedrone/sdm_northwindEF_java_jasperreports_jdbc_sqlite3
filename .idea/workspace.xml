@@ -13,13 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d20b1f1-a2e2-4113-894b-29ea255d68a3" name="Default" comment="1.292.1210">
-      <change afterPath="$PROJECT_DIR$/lib/sqlite-jdbc-3.44.1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_30_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_30_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdm/settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sdm/settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdm/sqlite-jdbc-3.39.2.0.jar" beforeDir="false" />
-    </list>
+    <list default="true" id="6d20b1f1-a2e2-4113-894b-29ea255d68a3" name="Default" comment="1.292.1210" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
