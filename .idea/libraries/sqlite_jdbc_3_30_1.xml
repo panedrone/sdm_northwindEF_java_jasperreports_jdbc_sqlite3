@@ -6,7 +6,7 @@
       <root url="jar://$PROJECT_DIR$/lib/commons-digester-2.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jasperreports-5.6.0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/sdm/sqlite-jdbc-3.39.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sqlite-jdbc-3.44.1.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -10,7 +10,7 @@
 
     <ide event-log="true"/>
 
-    <jdbc jar="sdm/sqlite-jdbc-3.39.2.0.jar" class="org.sqlite.JDBC"
+    <jdbc jar="lib/sqlite-jdbc-3.44.1.0.jar" class="org.sqlite.JDBC"
           url="jdbc:sqlite:$PROJECT_DIR$/northwindEF.sqlite" user="" pwd="" />
 
     <type-map default="">
