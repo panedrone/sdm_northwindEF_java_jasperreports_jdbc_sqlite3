@@ -61,4 +61,12 @@
     <dto-class name="Supplier" ref="Suppliers"/>
     <dto-class name="Territory" ref="Territories"/>
 
+
+    <dao-class name="Crud_All_Dao" ref="Crud_All_Dao.xml"/>
+    <dao-class name="CustomersDao" ref="CustomersDao.xml"/>
+    <dao-class name="InvoicesDao" ref="InvoicesDao.xml"/>
+    <dao-class name="OrdersDao" ref="OrdersDao.xml"/>
+    <dao-class name="ProductsDao" ref="ProductsDao.xml"/>
+    <dao-class name="SalesDao" ref="SalesDao.xml"/>
+
 </sdm>
